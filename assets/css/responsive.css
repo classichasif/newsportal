@@ -1,12 +1,21 @@
 
 /* 576 */ 
-@media(min-width: 576px){}
+@media(min-width: 576px){
+
+}
 
 /* 768 */
-@media(min-width: 767px){}
+@media(min-width: 767px){
+    .section_padding{
+        padding: 40px 0px;
+    }
+}
 
 /* 1024 */
-@media(min-width: 992px){}
+@media(min-width: 992px){
+
+}
 
 /* 1240 */
-@media(min-width: 1200px){}
+@media(min-width: 1200px){
+}
