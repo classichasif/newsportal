@@ -17,17 +17,17 @@ window.addEventListener("click", function(e){
 
 
 // //   socket year
-// let socketYear = document.getElementById("socket_year")
+let socketYear = document.getElementById("socket_year")
 
-// let PresentYear = (year) =>{
-//   let date = new Date()
-//   let PreYear = date.getFullYear()
-//   year.innerText = PreYear
-// }
+let PresentYear = (year) =>{
+  let date = new Date()
+  let PreYear = date.getFullYear()
+  year.innerText = PreYear
+}
 
-// PresentYear(socketYear)
+PresentYear(socketYear)
 
-// // stciky year
+// // stciky
 // var header = document.getElementsByClassName("cls__main_header")[0];
 // var sticky = header.offsetTop;
 
