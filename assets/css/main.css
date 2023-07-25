@@ -279,7 +279,7 @@
     left: 0px;
 }
 
-.update_content{
+.update_news .update_content{
     overflow-y: auto;
     height: 650px;
 }
@@ -341,6 +341,7 @@
     font-size: 17px;
     font-weight: 600;
     transition: var(--transition);
+    display: block;
 }
 
 .card_title:hover{
@@ -378,9 +379,11 @@
     color: var(--text-color);
 }
 
-.footer_nav ul li a{
+.footer_nav ul li a {
     color: #555c6a;
     font-weight: 500;
+    display: block;
+    margin-bottom: 6px;
 }
 
 .socket{
@@ -407,4 +410,36 @@
     font-size: 16px;
     font-weight: 500;
     margin-top: 5px;
+}
+
+.event_news .update_content{
+    height: 400px;
+    overflow-y: auto;
+}
+
+.event_news ul li{
+    padding: 8px 10px 8px 10px;
+}
+
+.event_news ul li:not(:last-child){
+    border-bottom: 1px solid var(--border-color);
+}
+
+.event_news ul li img{
+    width: 50px;
+}
+
+.event_news ul li a{
+    font-size: 16px;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.play_section_wrapper .row .row .card-body{
+    padding: 8px 0 0;
+}
+
+.play_section_wrapper .row .row .card-body .card_title{
+    font-size: 14px;
+    line-height: 20px;
 }
