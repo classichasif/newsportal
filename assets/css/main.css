@@ -206,7 +206,7 @@
 }
 
 .post_interval{
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 5px;
 }
 
@@ -345,7 +345,7 @@
 }
 
 .card_title:hover{
-    color: #00954c;
+    color: #00954c !important;
 }
 
 .add_image{
@@ -442,4 +442,156 @@
 .play_section_wrapper .row .row .card-body .card_title{
     font-size: 14px;
     line-height: 20px;
+}
+
+/* bimdhon section */
+
+.binodhon_section{
+    background: var(--text-color);
+    position: relative;
+
+    background: url('../image/binodhon/entertainment-bg.png'),var(--text-color);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+}
+
+.binodhon_section .card{
+    background: transparent;
+}
+
+.binodhon_section .section_heading h2{
+    color: #26292e;
+}
+
+.binodhon_section .section_heading a{
+    color: #c6c6c6;
+}
+
+.binodhon_section .card_title{
+    color: #c6c6c6;
+}
+
+.binodhon_section .post_interval {
+    color: #9c0004;
+}
+
+.bindhon_card .card-img{
+    width: 45%;
+}
+
+.bindhon_card .card-body{
+    width: 55%;
+}
+
+/* slider css */
+.splide__progress{
+    background: var(--bg-color);
+}
+
+.splide__progress__bar {
+    background: var(--red);
+    height: 5px !important;
+}
+
+.splide__toggle {
+    align-items: center;
+    background: #737e80;
+    border-radius: 50%;
+    display: inline-flex;
+    height: 1.8rem;
+    justify-content: center;
+    margin-right: .5rem;
+    transition: background-color .2s ease;
+    width: 1.8rem;
+}
+
+.life_style_content .slick-arrow {
+    visibility: hidden;
+    opacity: 0;
+    transition: var(--transition);
+}
+.life_style_content:hover .slick-arrow {
+    visibility: visible;
+    opacity: 1;
+}
+
+.lifestyle_arrow {
+    position: absolute;
+    width: 99%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* slider css end */
+
+.life_style_content{
+    margin: 0px -6px;
+}
+
+.life_slideritem{
+    position: relative;
+    background: #f1f1f1;
+    overflow: hidden;
+    margin: 0px 6px;
+}
+
+.life_slider_thumb {
+    padding-top: 150%;
+}
+
+.life_slider_thumb figure{
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.life_slider_thumb img{
+    height: 100%;
+    transition: var(--transition);
+    transform: scale(1);
+}
+
+
+.life_slideritem:hover .life_slider_thumb img{
+    transform: scale(1.1);
+}
+
+.life_slider_thumb::after{
+    content: "";
+    background: linear-gradient(180deg,transparent 25.61%,rgba(0,0,0,.6) 56.86%,#000);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.life_slider_title {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    padding: 0px 10px 0 20px;
+    color: var(--global-color);
+}
+
+.life_slideritem:hover .life_slider_title h4{
+    color: #00954c;
+}
+
+.life_slider_title h4 {
+    font-size: 22px;
+    line-height: 32px;
+    transition: var(--transition);
 }

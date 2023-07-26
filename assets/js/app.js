@@ -27,6 +27,49 @@ let PresentYear = (year) =>{
 
 PresentYear(socketYear)
 
+
+// lifestyle slider
+
+// offer
+$(function (e) {
+  "use strict";
+  e(".lifestyle_slider").slick({
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      arrows: true,
+      focusOnSelect: !0,
+      dots: false,
+      autoplay: !1,
+      autoplaySpeed: 5e3,
+      swipe: true,
+      swipeToSlide: true,
+      appendArrows: e(".lifestyle_arrow"),
+      responsive: [{
+          breakpoint: 1200,
+          settings: {
+              autoplay: !1,
+              slidesToShow: 3,
+          }
+      },
+      {
+          breakpoint: 766,
+          settings: {
+              autoplay: !1,
+              slidesToShow: 2,
+          }
+      },
+      {
+          breakpoint: 576,
+          settings: {
+              autoplay: !1,
+              slidesToShow: 1,
+          }
+      }
+    ]
+  })
+});
+
+
 // // stciky
 // var header = document.getElementsByClassName("cls__main_header")[0];
 // var sticky = header.offsetTop;

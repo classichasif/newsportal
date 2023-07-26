@@ -15,6 +15,8 @@
         <link rel="stylesheet" href="assets/css/fontawesome.min.css">
         <!-- slick slider -->
         <link rel="stylesheet" href="assets/css/slick.css">
+        <!-- splide js -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
 
         <!-- css file link -->
         <link rel="stylesheet" href="assets/css/global.css">
@@ -110,7 +112,7 @@
                 </div>
             </div>
             <!-- header nav -->
-            <div class="header_nav">
+            <div class="header_nav d-none d-lg-block">
                 <div class="container">
                     <nav class="nav_area position-relative">
                         <!-- search btn -->
@@ -482,10 +484,10 @@
             <!-- main panel end -->
 
             <!-- add section -->
-            <section class="add_section">
+            <section class="add_section section_padding">
                 <div class="container">
                     <!-- add -->
-                    <div class="add mt-4">
+                    <div class="add">
                         <a href="" class="add_image">
                             <img src="assets/image/news/11424409831296943180.gif" alt="add image">
                         </a>
@@ -817,10 +819,10 @@
             <!-- play section end -->
 
             <!-- add section -->
-            <section class="add_section">
+            <section class="add_section section_padding">
                 <div class="container">
                     <!-- add -->
-                    <div class="add mt-4">
+                    <div class="add">
                         <a href="" class="add_image">
                             <img src="assets/image/add/8986238259079179329.gif" alt="add image">
                         </a>
@@ -832,6 +834,7 @@
             <!-- binodhon section -->
             <section class="binodhon_section section_padding">
                 <div class="container">
+                    <!-- section title -->
                     <div class="section_title d-flex align-items-center">
                         <!-- line -->
                         <div class="separate_line w-100 position-relative"></div>
@@ -841,9 +844,310 @@
                         </div>
                         <div class="separate_line w-100 position-relative"></div>
                     </div>
+                    <!-- binodhon wrapper -->
+                    <div class="binodhon_wrapper">
+                        <!-- row -->
+                        <div class="row gy-4">
+                            <!-- col -->
+                            <div class="col-md-12 col-lg-4 order-lg-2">
+                                <!-- card -->
+                                <div class="card border-0">
+                                    <div class="card-img overflow-hidden">
+                                        <img src="assets/image/binodhon/1.jpg" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
+                                        <h5 class="card-title">
+                                            <a href="" class="card_title">ওপেনহাইমার: নায়কের মহাকাব্যিক আখ্যান নাকি আমেরিকার আদিপাপের স্বাভাবিকীকরণ</a>
+                                        </h5>
+                                        <p class="post_intro">যদি আকাশে সহস্র সূর্যের প্রভা যুগপৎ উদিত হয়, তাহলে সেই মহাত্মা বিশ্বরূপের প্রভার কিঞ্চিৎ তুল্য হতে পারে—গীতার এই শ্লোক আউরে নিজ হাতে গড়া মারণাস্ত্রের সফল পরীক্ষা উদ্‌যাপন করেছিলেন ওপেনহাইমার। তাঁর মতো মৃদুভাষি চাপা স্বভাবের জ্ঞানী মানুষ আনন্দিত হলেও নিজের সৃষ্ট তেজস্ক্রিয় বোমার মতো ফেটে পড়েননি।</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- col -->
+                            <div class="col-md-6 col-lg-4 order-lg-1">
+                                <!-- row -->
+                                <div class="row gy-4">
+                                    <!-- card -->
+                                    <div class="bindhon_card card flex-row-reverse border-0 align-items-center">
+                                        <div class="card-img overflow-hidden">
+                                            <img class="w-75 h-100 ms-auto" src="assets/image/binodhon/d4c225d913bf56bb5f4dc969c22b19ef-64bfa6589c351.jpg" alt="">
+                                        </div>
+                                        <div class="card-body p-0">
+                                            <!-- time -->
+                                            <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
+                                            <h5 class="card-title">
+                                                <a href="" class="card_title">‘বার্বি’র সিকুয়েলে অভিনয় করতে চান ‘ওপেনহাইমার’ অভিনেতা কিলিয়ান মারফি</a>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <!-- card -->
+                                    <div class="bindhon_card card flex-row-reverse border-0 align-items-center">
+                                        <div class="card-img overflow-hidden">
+                                            <img class="w-75 h-100 ms-auto" src="assets/image/binodhon/ddeili_sttaar_-_2023-07-21t171229.090.jpg" alt="">
+                                        </div>
+                                        <div class="card-body p-0">
+                                            <!-- time -->
+                                            <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
+                                            <h5 class="card-title">
+                                                <a href="" class="card_title">হৃদি হকের সিনেমার গান ‘যাচ্ছো কোথায়’</a>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <!-- card -->
+                                    <div class="bindhon_card card flex-row-reverse border-0 align-items-center">
+                                        <div class="card-img overflow-hidden">
+                                            <img class="w-75 h-100 ms-auto" src="assets/image/binodhon/konal.jpg" alt="">
+                                        </div>
+                                        <div class="card-body p-0">
+                                            <!-- time -->
+                                            <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
+                                            <h5 class="card-title">
+                                                <a href="" class="card_title">গানের সঙ্গে গ্ল্যামার একজন শিল্পীর জন্য প্লাস পয়েন্ট, দোষের কিছু না: কোনাল</a>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <!-- card -->
+                                    <div class="bindhon_card card flex-row-reverse border-0 align-items-center">
+                                        <div class="card-img overflow-hidden">
+                                            <img class="w-75 h-100 ms-auto" src="assets/image/binodhon/mimi.jpg" alt="">
+                                        </div>
+                                        <div class="card-body p-0">
+                                            <!-- time -->
+                                            <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
+                                            <h5 class="card-title">
+                                                <a href="" class="card_title">‘পাতালঘরে’ আমি সিঙ্গেল মাদার: আফসানা মিমি</a>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- col -->
+                            <div class="col-md-6 col-lg-4 order-lg-3">
+                                <!-- row -->
+                                <div class="row gy-4">
+                                    <!-- card -->
+                                    <div class="bindhon_card card flex-row-reverse border-0 align-items-center">
+                                        <div class="card-img overflow-hidden">
+                                            <img class="w-75 h-100 ms-auto" src="assets/image/binodhon/prothomalo-bangla_2023-07_33a8d13a-62dc-46c7-8d37-3d664d9695ae_WhatsApp_Image_2023_07_25_at_3_13_50_PM.jpeg" alt="">
+                                        </div>
+                                        <div class="card-body p-0">
+                                            <!-- time -->
+                                            <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
+                                            <h5 class="card-title">
+                                                <a href="" class="card_title">‘বার্বি’র সিকুয়েলে অভিনয় করতে চান ‘ওপেনহাইমার’ অভিনেতা কিলিয়ান মারফি</a>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <!-- card -->
+                                    <div class="bindhon_card card flex-row-reverse border-0 align-items-center">
+                                        <div class="card-img overflow-hidden">
+                                            <img class="w-75 h-100 ms-auto" src="assets/image/binodhon/ddeili_sttaar_-_2023-07-21t171229.090.jpg" alt="">
+                                        </div>
+                                        <div class="card-body p-0">
+                                            <!-- time -->
+                                            <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
+                                            <h5 class="card-title">
+                                                <a href="" class="card_title">হৃদি হকের সিনেমার গান ‘যাচ্ছো কোথায়’</a>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <!-- card -->
+                                    <div class="bindhon_card card flex-row-reverse border-0 align-items-center">
+                                        <div class="card-img overflow-hidden">
+                                            <img class="w-75 h-100 ms-auto" src="assets/image/binodhon/konal.jpg" alt="">
+                                        </div>
+                                        <div class="card-body p-0">
+                                            <!-- time -->
+                                            <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
+                                            <h5 class="card-title">
+                                                <a href="" class="card_title">গানের সঙ্গে গ্ল্যামার একজন শিল্পীর জন্য প্লাস পয়েন্ট, দোষের কিছু না: কোনাল</a>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <!-- card -->
+                                    <div class="bindhon_card card flex-row-reverse border-0 align-items-center">
+                                        <div class="card-img overflow-hidden">
+                                            <img class="w-75 h-100 ms-auto" src="assets/image/binodhon/mimi.jpg" alt="">
+                                        </div>
+                                        <div class="card-body p-0">
+                                            <!-- time -->
+                                            <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
+                                            <h5 class="card-title">
+                                                <a href="" class="card_title">‘পাতালঘরে’ আমি সিঙ্গেল মাদার: আফসানা মিমি</a>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
             <!-- binodhon section end -->
+
+            <!-- jibon section -->
+            <section class="life_style section_padding">
+                <div class="container">
+                    <!-- section title -->
+                    <div class="section_title d-flex align-items-center">
+                        <!-- line -->
+                        <div class="separate_line w-100 position-relative"></div>
+                        <div class="section_heading">
+                            <h2>জীবনযাপন</h2>
+                            <a href="">জীবনযাপন <span><i class="fa-solid fa-chevron-right"></i></span></a>
+                        </div>
+                        <div class="separate_line w-100 position-relative"></div>
+                    </div>
+                    <!-- content -->
+                    <div class="position-relative life_style_content">
+                        <!-- slider -->
+                        <div class="lifestyle_slider">
+                            <!-- item -->
+                            <a href="" class="life_slideritem position-relative">
+                                <!-- thumb -->
+                                <div class="life_slider_thumb">
+                                    <figure>
+                                        <img src="assets/image/jibon/5.jpeg" alt="">
+                                    </figure>
+                                </div>
+                                <!-- content -->
+                                <div class="life_slider_title">
+                                    <h4>বিদ্যুৎ নেই, ফ্রিজ নষ্ট বা বাড়িতে ফ্রিজ নেই? এভাবে মাংস সংরক্ষণ করুন</h4>
+                                </div>
+                            </a>
+                            <!-- item -->
+                            <a href="" class="life_slideritem position-relative">
+                                <!-- thumb -->
+                                <div class="life_slider_thumb">
+                                    <figure>
+                                        <img src="assets/image/jibon/9.jpeg" alt="">
+                                    </figure>
+                                </div>
+                                <!-- content -->
+                                <div class="life_slider_title">
+                                    <h4>না কষিয়েই যেভাবে নরম সুস্বাদু গরুর মাংস রান্না করেন রুনা</h4>
+                                </div>
+                            </a>
+                            <!-- item -->
+                            <a href="" class="life_slideritem position-relative">
+                                <!-- thumb -->
+                                <div class="life_slider_thumb">
+                                    <figure>
+                                        <img src="assets/image/jibon/1.jpg" alt="">
+                                    </figure>
+                                </div>
+                                <!-- content -->
+                                <div class="life_slider_title">
+                                    <h4>এই অভিনেতার মাদক ছাড়ার গল্পটাও সিনেমার মতোই</h4>
+                                </div>
+                            </a>
+                            <!-- item -->
+                            <a href="" class="life_slideritem position-relative">
+                                <!-- thumb -->
+                                <div class="life_slider_thumb">
+                                    <figure>
+                                        <img src="assets/image/jibon/1690365459-35d0c3c9f4c202e994f552b1dfb9b89e.jpeg" alt="">
+                                    </figure>
+                                </div>
+                                <!-- content -->
+                                <div class="life_slider_title">
+                                    <h4>এক্ষেত্রে ক্রিমজাতীয় প্রসাধনী ব্যবহার করলে অনেকটা আরাম পাওয়া যায়</h4>
+                                </div>
+                            </a>
+                            <!-- item -->
+                            <a href="" class="life_slideritem position-relative">
+                                <!-- thumb -->
+                                <div class="life_slider_thumb">
+                                    <figure>
+                                        <img src="assets/image/jibon/dengu.jpeg" alt="">
+                                    </figure>
+                                </div>
+                                <!-- content -->
+                                <div class="life_slider_title">
+                                    <h4>ডেঙ্গুর প্রাথমিক ধাপে তরল খান</h4>
+                                </div>
+                            </a>
+                            <!-- item -->
+                            <a href="" class="life_slideritem position-relative">
+                                <!-- thumb -->
+                                <div class="life_slider_thumb">
+                                    <figure>
+                                        <img src="assets/image/jibon/4.jpeg" alt="">
+                                    </figure>
+                                </div>
+                                <!-- content -->
+                                <div class="life_slider_title">
+                                    <h4>সাগরের পানিকে কেন বলা হতো কালাপানি </h4>
+                                </div>
+                            </a>
+                            <!-- item -->
+                            <a href="" class="life_slideritem position-relative">
+                                <!-- thumb -->
+                                <div class="life_slider_thumb">
+                                    <figure>
+                                        <img src="assets/image/jibon/2.jpeg" alt="">
+                                    </figure>
+                                </div>
+                                <!-- content -->
+                                <div class="life_slider_title">
+                                    <h4>১১২ বছর পার করে দিল ঢাকার এই বেকারি</h4>
+                                </div>
+                            </a>
+                            <!-- item -->
+                            <a href="" class="life_slideritem position-relative">
+                                <!-- thumb -->
+                                <div class="life_slider_thumb">
+                                    <figure>
+                                        <img src="assets/image/jibon/6.jpg" alt="">
+                                    </figure>
+                                </div>
+                                <!-- content -->
+                                <div class="life_slider_title">
+                                    <h4>হিমালয়ের ৬ হাজার মিটারের ১২ পর্বতচূড়া ছুঁতে যাচ্ছেন বাংলাদেশ ও ভারতের পাঁচ পর্বতারোহী</h4>
+                                </div>
+                            </a>
+                            <!-- item -->
+                            <a href="" class="life_slideritem position-relative">
+                                <!-- thumb -->
+                                <div class="life_slider_thumb">
+                                    <figure>
+                                        <img src="assets/image/jibon/unnamed.webp" alt="">
+                                    </figure>
+                                </div>
+                                <!-- content -->
+                                <div class="life_slider_title">
+                                    <h4>গরমে সুস্থ থাকতে সাহরি ও ইফতারের তালিকায় যেসব খাবার রাখবেন</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="lifestyle_arrow"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- jibon section end -->
+
+            <!-- gallery section -->
+            <div class="container d-none section_padding">
+                <section class="splide">
+                    <div class="splide__progress"><div class="splide__progress__bar"></div></div>
+                    <div class="splide__track">
+                          <ul class="splide__list">
+                              <li class="splide__slide">
+                                <img src="assets/image/news/baayyubidyu.jpg" alt="">
+                              </li>
+                              <li class="splide__slide">
+                                <img src="assets/image/news/360081721_1969752433384858_4480431353348141479_n.jpg" alt="">
+                              </li>
+                              <li class="splide__slide">
+                                <img src="assets/image/news/black-sea.jpg" alt="">
+                              </li>
+                          </ul>
+                    </div>
+                    <button class="splide__toggle is-active" type="button" aria-controls="toggle-track" aria-label="Pause autoplay">    <svg class="splide__toggle__play" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">      <path d="m22 12-20 11v-22l10 5.5z"></path>    </svg>    <svg class="splide__toggle__pause" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">      <path d="m2 1v22h7v-22zm13 0v22h7v-22z"></path>    </svg>  </button>
+                  </section>
+            </div>
+            <!-- gallery section end -->
 
         </main>
         <!-- main end -->
@@ -976,8 +1280,24 @@
         <script src="assets/js/bootstrap.bundle.min.js"></script>
         <!-- slick slider -->
         <script src="assets/js/slick.min.js"></script>
+        <!-- splide js -->
+        <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
         <!-- main js -->
         <script src="assets/js/app.js"></script>
+
+        <script>
+            var splide = new Splide( '.splide', {
+                type    : 'loop',
+                perPage : 1,
+                autoplay: 'true',
+                dot: false,
+                pauseOnHover: false,
+                pauseOnFocus: false,
+            } );
+
+            splide.mount();  
+        </script>
+        
     </body>
 
 </html>
