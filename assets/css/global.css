@@ -139,7 +139,7 @@ img{
     content: "\f053";
     display: grid;
     place-content: center;
-    background: var(--primary-color);
+    background: var(--radial);
 }
 
 .slick-next::after {

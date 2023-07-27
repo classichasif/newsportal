@@ -462,7 +462,7 @@
 }
 
 .binodhon_section .section_heading h2{
-    color: #26292e;
+    color: #242424;
 }
 
 .binodhon_section .section_heading a{
@@ -495,18 +495,6 @@
     height: 5px !important;
 }
 
-.splide__toggle {
-    align-items: center;
-    background: #737e80;
-    border-radius: 50%;
-    display: inline-flex;
-    height: 1.8rem;
-    justify-content: center;
-    margin-right: .5rem;
-    transition: background-color .2s ease;
-    width: 1.8rem;
-}
-
 .life_style_content .slick-arrow {
     visibility: hidden;
     opacity: 0;
@@ -519,13 +507,82 @@
 
 .lifestyle_arrow {
     position: absolute;
-    width: 99%;
+    width: 98%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.splide__pagination {
+    display: none !important;
+}
+
+.splide__arrows {
+    position: absolute;
+    top: 40px;
+    left: auto;
+    right: 40px;
+}
+
+.splide__toggle {
+    align-items: center;
+    background: rgb(64 67 72 / 40%) !important;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    margin-right: .5rem;
+    transition: background-color .2s ease;
+    height: 1.8em;
+    width: 1.8em;
+    border: unset;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.splide__toggle__pause,
+.splide__toggle__play{
+    fill: var(--global-color);
+    height: 1em;
+    width: 1em;
+}
+
+.splide__arrow {
+    height: 1.8em;
+    width: 1.8em;
+    background: rgb(64 67 72 / 40%) !important;
+}
+
+.splide__arrow svg {
+    fill: var(--global-color);
+    height: 1em;
+    width: 1em;
+}
+
+.splide__arrow--prev {
+    left: -40px;
+}
+
+.splide__arrow--next{
+    left: 0px; 
+}
+
+.image__title {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: rgb(0 0 0 / 50%);
+    width: 100%;
+    color: var(--global-color);
+    padding: 15px;
+    font-size: 16px;
+}
+
+.splide__slide img {
+    height: 100%;
 }
 
 /* slider css end */
@@ -594,4 +651,33 @@
     font-size: 22px;
     line-height: 32px;
     transition: var(--transition);
+}
+
+/* gellary image */
+
+.gallery_card{}
+
+.gallery_card .card-img{
+    width: 45%;
+    position: relative;
+}
+
+.gallery_card .card-img::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(207deg,transparent 25.61%,rgba(0,0,0,.6) 56.86%,#000);
+    top: 0;
+    left: 0;
+}
+
+.gallery_card .card-body{
+    width: 55%;
+}
+
+.gallery_icon{
+    top: 10px;
+    left: 10px;
+    color: var(--bg-color);
 }
