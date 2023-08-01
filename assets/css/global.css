@@ -89,6 +89,7 @@ img{
     font-size: 72px;
     line-height: 82px;
     font-weight: 600;
+    white-space: nowrap;
 }
 
 .section_heading a {
@@ -102,6 +103,7 @@ img{
     display: flex;
     gap: 6px;
     align-items: center;
+    white-space: nowrap;
 }
 
 .section_heading a{

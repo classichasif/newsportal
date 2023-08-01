@@ -16,7 +16,7 @@ window.addEventListener("click", function(e){
 
 
 
-// //   socket year
+// socket year
 let socketYear = document.getElementById("socket_year")
 
 let PresentYear = (year) =>{
@@ -26,7 +26,6 @@ let PresentYear = (year) =>{
 }
 
 PresentYear(socketYear)
-
 
 // lifestyle slider
 

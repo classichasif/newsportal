@@ -699,3 +699,41 @@
 .video__section .card{
     background: #0f0f0f;
 }
+
+.video__playBtn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 35px;
+    width: 35px;
+    background: var(--radial);
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    color: var(--global-color);
+}
+
+.search__btn {
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+    background: var(--main-color);
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--global-color);
+}
+
+.sm_section_title .section_heading h2{
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.sm_section_title .section_heading a{
+    font-size: 18px;
+}
+
+.sm_section_title .section_heading a i{
+    font-size: 14px;
+}
