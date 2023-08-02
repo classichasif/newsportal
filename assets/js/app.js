@@ -68,18 +68,6 @@ $(function (e) {
   })
 });
 
-// splide js
-
-var splide = new Splide( '.splide', {
-  type    : 'loop',
-  perPage : 1,
-  autoplay: 'true',
-  dots: false,
-  pauseOnHover: false,
-  pauseOnFocus: false,
-} );
-
-splide.mount(); 
 
 // // stciky
 // var header = document.getElementsByClassName("cls__main_header")[0];
