@@ -60,32 +60,32 @@
                         <div class="header_right">
                             <!-- header social -->
                             <div class="header_social">
-                                <ul class="d-flex align-items-center justify-content-end flex-wrap">
+                                <ul class="d-flex align-items-center justify-content-start justify-content-sm-end flex-wrap">
                                     <li>
-                                        <a href="./details.html"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                                     </li>
                                     <li>
-                                        <a href="./details.html"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
                                     </li>
                                     <li>
-                                        <a href="./details.html"><i class="fa-brands fa-pinterest-p"></i></a>
+                                        <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
                                     </li>
                                     <li>
-                                        <a href="./details.html"><i class="fa-brands fa-youtube"></i></a>
+                                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
                                     </li>
                                     <li>
-                                        <a href="./details.html"><i class="fa-brands fa-linkedin-in"></i></a>
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                                     </li>
                                     <li>
-                                        <a href="./details.html"><i class="fa-brands fa-instagram"></i></a>
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
                                     </li>
                                     <li>
-                                        <a href="./details.html">|</a>
+                                        <a href="#">|</a>
                                     </li>
                                     <li>
                                         <!-- epaper -->
                                         <div class="epaper_link">
-                                            <a href="./details.html"><span><i class="fa-solid fa-newspaper"></i></span>ইপেপার</a>
+                                            <a href="#"><span><i class="fa-solid fa-newspaper"></i></span>ইপেপার</a>
                                         </div>
                                     </li>
                                 </ul>
@@ -94,14 +94,14 @@
                             <!-- header list -->
                             <ul class="d-flex justify-content-end gap-4 flex-wrap header_menu_list">
                                 <li>
-                                    <a href="./details.html"> <span><i class="fa-solid fa-coins"></i></span> আর্কাইভ</a>
+                                    <a href="./search.html"> <span><i class="fa-solid fa-coins"></i></span> আর্কাইভ</a>
                                 </li>
                                 <li>
-                                    <a href="./details.html"> <span><i class="fa-solid fa-photo-film"></i></span> ফটো গ্যালারি</a>
+                                    <a href="#photo"> <span><i class="fa-solid fa-photo-film"></i></span> ফটো গ্যালারি</a>
                                 </li>
 
                                 <li>
-                                    <a href="./details.html"> <span><i class="fa-solid fa-video"></i></span> ভিডিও</a>
+                                    <a href="#video"> <span><i class="fa-solid fa-video"></i></span> ভিডিও</a>
                                 </li> 
                             </ul>
                             
@@ -110,7 +110,7 @@
                 </div>
             </div>
             <!-- header nav -->
-            <div class="header_nav d-none d-lg-block">
+            <div class="header_nav">
                 <div class="container">
                     <nav class="nav_area position-relative">
                         <!-- search btn -->
@@ -122,7 +122,7 @@
                             <input type="search" class="input_control" placeholder="Enter search key">
                         </form>
                         <!-- nav -->
-                        <ul class="nav_lsit d-flex align-items-center justify-content-between">
+                        <ul class="nav_lsit d-none d-lg-flex align-items-center justify-content-between">
                             <li>
                                 <a href="./category.html"><i class="fa-solid fa-house fw-normal"></i></a>
                             </li>
@@ -284,7 +284,396 @@
                                 <a href="./category.html">প্রযুক্তি</a>
                             </li>
                         </ul>
+                        <!-- toggler icon -->
+                        <div class="toggler_icon d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#tbdMobile">
+                            <span><i class="fa-solid fa-bars"></i></span>
+                        </div>
                     </nav>
+                </div>
+            </div>
+            <!-- mobile nav -->
+            <div class="offcanvas offcanvas-start" id="tbdMobile">
+                <!-- offcanvas header -->
+                <div class="offcanvas-header">
+                    <div class="nav_logo">
+                        <a href="./index.html">
+                            <img src="assets/image/logo.svg" alt="">
+                        </a>
+                    </div>
+                    <button type="button btn" data-bs-dismiss="offcanvas"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                <!-- offcanvas body -->
+                <div class="offcanvas-body">
+                    <div class="mobile_nav">
+                        <ul>
+                            <!-- item -->
+                            <li>
+                                <a href="./index.html">
+                                    <p class="d-flex gap-2">
+                                        <span>হোম</span>
+                                    </p>
+                                </a>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a href="./index.html">
+                                    <p class="d-flex gap-2">
+                                        <span>আজকের সব খবর</span>
+                                    </p>
+                                </a>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a class="dropdown_button">
+                                    <p class="d-flex gap-2">
+                                        <span>দেশ সংবাদ</span>
+                                    </p>
+                                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                                </a>
+                                <!-- mobile sub nav -->
+                                <div class="mobile_suv_nav dropdown_sub">
+                                    <ul>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">ঢাকা</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">চট্টগ্রাম</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">বরিশাল</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">ময়মনসিংহ</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">সিলেট</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">রংপুর</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">রাজশাহী</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">খুলনা</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a data-bs-target="#visa__info" data-bs-toggle="modal">
+                                    <p class="d-flex gap-2">
+                                        <span>জাতীয়</span>
+                                    </p>
+                                </a>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a class="dropdown_button">
+                                    <p class="d-flex gap-2">
+                                        <span>আন্তর্জাতিক</span>
+                                    </p>
+                                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                                </a>
+                                <!-- mobile sub nav -->
+                                <div class="mobile_suv_nav dropdown_sub">
+                                    <ul>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">ভারত</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">পাকিস্তান</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">চীন</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">যুক্তরাষ্ট্র</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">এশিয়া</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">ইউরোপ</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">আফ্রিকা</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a href="./tourlist.html">
+                                    <p class="d-flex gap-2">
+                                        <span>রাজনীতি</span>
+                                    </p>
+                                </a>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a class="dropdown_button">
+                                    <p class="d-flex gap-2">
+                                        <span>খেলাধুলা</span>
+                                    </p>
+                                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                                </a>
+                                <!-- mobile sub nav -->
+                                <div class="mobile_suv_nav dropdown_sub">
+                                    <ul>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">ফুটবল</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">ক্রিকেট</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">টেনিস</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">অন্য খেলা</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">ফ্রি হিট</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a class="dropdown_button">
+                                    <p class="d-flex gap-2">
+                                        <span>অর্থনীতি</span>
+                                    </p>
+                                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                                </a>
+                                <!-- mobile sub nav -->
+                                <div class="mobile_suv_nav dropdown_sub">
+                                    <ul>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">করপোরেট</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">নতুন উদ্যোগ</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">শেয়ারবাজার</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">আর্থিক প্রতিষ্ঠান</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a href="./tourlist.html">
+                                    <p class="d-flex gap-2">
+                                        <span>স্বাস্থ্য</span>
+                                    </p>
+                                </a>
+                            </li>
+                            <!-- item -->
+                            <li>                          
+                                <a class="dropdown_button">
+                                    <p class="d-flex gap-2">
+                                        <span>বিনোদন</span>
+                                    </p>
+                                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                                </a>
+                                <!-- mobile sub nav -->
+                                <div class="mobile_suv_nav dropdown_sub">
+                                    <ul>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">সিনেমা</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">বলিউড</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">গান</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">হলিউড</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">টেলিভিশন</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">সিরিয়াল</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">লোক-সংস্কৃতি</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a href="./tourlist.html">
+                                    <p class="d-flex gap-2">
+                                        <span>প্রযুক্তি</span>
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </header>
