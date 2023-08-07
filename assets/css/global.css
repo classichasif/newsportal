@@ -44,7 +44,15 @@ hr {
     --red: #ec2127;
 }
 
-img{
+.container{
+    max-width: 1320px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0 10px;
+}
+
+img,
+iframe{
     width: 100%;
     display: block;
     object-fit: cover;
@@ -86,8 +94,8 @@ img{
 
 .section_heading h2 {
     color: #F2F4F7;
-    font-size: 72px;
-    line-height: 82px;
+    font-size: 40px;
+    line-height: 42px;
     font-weight: 600;
     white-space: nowrap;
 }
@@ -97,7 +105,7 @@ img{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 36px;
+    font-size: 22px;
     font-weight: 500;
     color: var(--text-color);
     display: flex;
@@ -113,6 +121,12 @@ img{
 .section_heading a i{
     color: #00954c;
     font-size: 24px;
+}
+
+.add {
+    max-width: 900px;
+    margin: 0px auto;
+    width: 100%;
 }
 
 /* slick slider */

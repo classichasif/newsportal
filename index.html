@@ -60,32 +60,32 @@
                         <div class="header_right">
                             <!-- header social -->
                             <div class="header_social">
-                                <ul class="d-flex align-items-center justify-content-end flex-wrap">
+                                <ul class="d-flex align-items-center justify-content-start justify-content-sm-end flex-wrap">
                                     <li>
-                                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="./details.html"><i class="fa-brands fa-facebook-f"></i></a>
                                     </li>
                                     <li>
-                                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="./details.html"><i class="fa-brands fa-twitter"></i></a>
                                     </li>
                                     <li>
-                                        <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+                                        <a href="./details.html"><i class="fa-brands fa-pinterest-p"></i></a>
                                     </li>
                                     <li>
-                                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                                        <a href="./details.html"><i class="fa-brands fa-youtube"></i></a>
                                     </li>
                                     <li>
-                                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                                        <a href="./details.html"><i class="fa-brands fa-linkedin-in"></i></a>
                                     </li>
                                     <li>
-                                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                        <a href="./details.html"><i class="fa-brands fa-instagram"></i></a>
                                     </li>
                                     <li>
-                                        <a href="">|</a>
+                                        <a href="./details.html">|</a>
                                     </li>
                                     <li>
                                         <!-- epaper -->
                                         <div class="epaper_link">
-                                            <a href=""><span><i class="fa-solid fa-newspaper"></i></span>ইপেপার</a>
+                                            <a href="./details.html"><span><i class="fa-solid fa-newspaper"></i></span>ইপেপার</a>
                                         </div>
                                     </li>
                                 </ul>
@@ -94,16 +94,14 @@
                             <!-- header list -->
                             <ul class="d-flex justify-content-end gap-4 flex-wrap header_menu_list">
                                 <li>
-                                    <a href=""> <span><i class="fa-solid fa-coins"></i></span> আর্কাইভ</a>
+                                    <a href="./details.html"> <span><i class="fa-solid fa-coins"></i></span> আর্কাইভ</a>
                                 </li>
                                 <li>
-                                    <a href=""> <span><i class="fa-solid fa-photo-film"></i></span> ফটো গ্যালারি</a>
+                                    <a href="./details.html"> <span><i class="fa-solid fa-photo-film"></i></span> ফটো গ্যালারি</a>
                                 </li>
+
                                 <li>
-                                    <a href=""> <span><i class="fa-solid fa-right-to-bracket"></i></span>লগইন</a>
-                                </li>
-                                <li>
-                                    <a href=""> <span><i class="fa-solid fa-video"></i></span> ভিডিও</a>
+                                    <a href="./details.html"> <span><i class="fa-solid fa-video"></i></span> ভিডিও</a>
                                 </li> 
                             </ul>
                             
@@ -112,7 +110,7 @@
                 </div>
             </div>
             <!-- header nav -->
-            <div class="header_nav d-none d-lg-block">
+            <div class="header_nav">
                 <div class="container">
                     <nav class="nav_area position-relative">
                         <!-- search btn -->
@@ -124,7 +122,7 @@
                             <input type="search" class="input_control" placeholder="Enter search key">
                         </form>
                         <!-- nav -->
-                        <ul class="nav_lsit d-flex align-items-center justify-content-between">
+                        <ul class="nav_lsit d-none d-lg-flex align-items-center justify-content-between">
                             <li>
                                 <a href="./category.html"><i class="fa-solid fa-house fw-normal"></i></a>
                             </li>
@@ -132,7 +130,7 @@
                                 <a href="./category.html">আজকের সব খবর</a>
                             </li>
                             <li>
-                                <a href="">দেশ সংবাদ  <span><i class="fw-normal fa-solid fa-caret-down"></i></span></a>
+                                <a href="./details.html">দেশ সংবাদ  <span><i class="fw-normal fa-solid fa-caret-down"></i></span></a>
                                 <!-- sub nav -->
                                 <div class="sub_nav">
                                     <ul>
@@ -286,7 +284,396 @@
                                 <a href="./category.html">প্রযুক্তি</a>
                             </li>
                         </ul>
+                        <!-- toggler icon -->
+                        <div class="toggler_icon d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#tbdMobile">
+                            <span><i class="fa-solid fa-bars"></i></span>
+                        </div>
                     </nav>
+                </div>
+            </div>
+            <!-- mobile nav -->
+            <div class="offcanvas offcanvas-start" id="tbdMobile">
+                <!-- offcanvas header -->
+                <div class="offcanvas-header">
+                    <div class="nav_logo">
+                        <a href="./index.html">
+                            <img src="assets/image/logo.svg" alt="">
+                        </a>
+                    </div>
+                    <button type="button btn" data-bs-dismiss="offcanvas"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                <!-- offcanvas body -->
+                <div class="offcanvas-body">
+                    <div class="mobile_nav">
+                        <ul>
+                            <!-- item -->
+                            <li>
+                                <a href="./index.html">
+                                    <p class="d-flex gap-2">
+                                        <span>হোম</span>
+                                    </p>
+                                </a>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a href="./index.html">
+                                    <p class="d-flex gap-2">
+                                        <span>আজকের সব খবর</span>
+                                    </p>
+                                </a>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a class="dropdown_button">
+                                    <p class="d-flex gap-2">
+                                        <span>দেশ সংবাদ</span>
+                                    </p>
+                                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                                </a>
+                                <!-- mobile sub nav -->
+                                <div class="mobile_suv_nav dropdown_sub">
+                                    <ul>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">ঢাকা</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">চট্টগ্রাম</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">বরিশাল</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">ময়মনসিংহ</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">সিলেট</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">রংপুর</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">রাজশাহী</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">খুলনা</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a data-bs-target="#visa__info" data-bs-toggle="modal">
+                                    <p class="d-flex gap-2">
+                                        <span>জাতীয়</span>
+                                    </p>
+                                </a>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a class="dropdown_button">
+                                    <p class="d-flex gap-2">
+                                        <span>আন্তর্জাতিক</span>
+                                    </p>
+                                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                                </a>
+                                <!-- mobile sub nav -->
+                                <div class="mobile_suv_nav dropdown_sub">
+                                    <ul>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">ভারত</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">পাকিস্তান</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">চীন</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">যুক্তরাষ্ট্র</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">এশিয়া</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">ইউরোপ</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">আফ্রিকা</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a href="./tourlist.html">
+                                    <p class="d-flex gap-2">
+                                        <span>রাজনীতি</span>
+                                    </p>
+                                </a>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a class="dropdown_button">
+                                    <p class="d-flex gap-2">
+                                        <span>খেলাধুলা</span>
+                                    </p>
+                                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                                </a>
+                                <!-- mobile sub nav -->
+                                <div class="mobile_suv_nav dropdown_sub">
+                                    <ul>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">ফুটবল</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">ক্রিকেট</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">টেনিস</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">অন্য খেলা</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">ফ্রি হিট</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a class="dropdown_button">
+                                    <p class="d-flex gap-2">
+                                        <span>অর্থনীতি</span>
+                                    </p>
+                                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                                </a>
+                                <!-- mobile sub nav -->
+                                <div class="mobile_suv_nav dropdown_sub">
+                                    <ul>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">করপোরেট</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">নতুন উদ্যোগ</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">শেয়ারবাজার</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">আর্থিক প্রতিষ্ঠান</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a href="./tourlist.html">
+                                    <p class="d-flex gap-2">
+                                        <span>স্বাস্থ্য</span>
+                                    </p>
+                                </a>
+                            </li>
+                            <!-- item -->
+                            <li>                          
+                                <a class="dropdown_button">
+                                    <p class="d-flex gap-2">
+                                        <span>বিনোদন</span>
+                                    </p>
+                                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                                </a>
+                                <!-- mobile sub nav -->
+                                <div class="mobile_suv_nav dropdown_sub">
+                                    <ul>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">সিনেমা</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">বলিউড</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">গান</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">হলিউড</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">টেলিভিশন</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">সিরিয়াল</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">লোক-সংস্কৃতি</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a href="./tourlist.html">
+                                    <p class="d-flex gap-2">
+                                        <span>প্রযুক্তি</span>
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </header>
@@ -308,14 +695,14 @@
                                     <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                     <!-- heading -->
                                     <h2 class="post_heading">
-                                        <a href="">নতুন লোগো প্রকাশ করেছে টুইটার</a>
+                                        <a href="./details.html">নতুন লোগো প্রকাশ করেছে টুইটার</a>
                                     </h2>
                                     <!-- intro -->
                                     <p class="post_intro">‘এক্স চলে এসেছে! আসুন আমরা এগিয়ে যাই’ লিখে টুইট করেন ইয়াকারিনো। তিনি একইসঙ্গে সান ফ্রানসিসকোতে টুইটারের অফিসের ওপর প্রক্ষেপণ করা নতুন লোগোর একটি ছবি দেন।</p>
                                 </div>
                                 <!-- post thumb -->
                                 <div class="post_thumb">
-                                    <a href="" class="post_image">
+                                    <a href="./details.html" class="post_image">
                                         <img src="assets/image/twitter-logo.jpg" alt="">
                                     </a>
                                 </div>
@@ -327,7 +714,7 @@
                                     <div class="post">
                                         <div class="post_content">
                                             <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ১ ঘণ্টা আগে</p>
-                                            <h3 class="post_title"><a href="">হিরো আলমের ওপর হামলা: ‘মূল সন্দেহভাজন’ ২ জন গ্রেপ্তার</a></h3>
+                                            <h3 class="post_title"><a href="./details.html">হিরো আলমের ওপর হামলা: ‘মূল সন্দেহভাজন’ ২ জন গ্রেপ্তার</a></h3>
                                             <!-- intro -->
                                             <p class="post_intro">গতকাল রাতে রাজধানীর তেজগাঁও এলাকা থেকে তাদের গ্রেপ্তার করা হয়।</p>
                                         </div>
@@ -338,7 +725,7 @@
                                     <div class="post">
                                         <div class="post_content">
                                             <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ১ ঘণ্টা আগে</p>
-                                            <h3 class="post_title"><a href="">নোয়াখালী জেনারেল হাসপাতালে ৩ মাস ধরে নেই ডেঙ্গু পরীক্ষার কিট</a></h3>
+                                            <h3 class="post_title"><a href="./details.html">নোয়াখালী জেনারেল হাসপাতালে ৩ মাস ধরে নেই ডেঙ্গু পরীক্ষার কিট</a></h3>
                                             <!-- intro -->
                                             <p class="post_intro">‘দিন দিন হাসপাতালে ডেঙ্গু আক্রান্ত রোগীর চাপ বাড়ছে। কিটের জন্য আমরা অধিদপ্তরে চিঠি পাঠিয়েছি।</p>
                                         </div>
@@ -358,7 +745,7 @@
                                     <ul class="update_list">
                                         <!-- item -->
                                         <li class="update_item">
-                                            <a href="" class="update_item_intro"> স্কয়ার ফার্মাসিউটিক্যালসে চাকরি, ৩৪ বছর বয়সীরাও আবেদন করতে পারবেন </a>
+                                            <a href="./details.html" class="update_item_intro"> স্কয়ার ফার্মাসিউটিক্যালসে চাকরি, ৩৪ বছর বয়সীরাও আবেদন করতে পারবেন </a>
                                             <div class="d-flex gap-2">
                                                 <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে |</p>
                                                 <span class="update_item_category">ক্যারিয়ার</span>
@@ -366,7 +753,7 @@
                                         </li>
                                         <!-- item -->
                                         <li class="update_item">
-                                            <a href="" class="update_item_intro">কমলো আদার দাম</a>
+                                            <a href="./details.html" class="update_item_intro">কমলো আদার দাম</a>
                                             <div class="d-flex gap-2">
                                                 <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে |</p>
                                                 <span class="update_item_category">অর্থ-বাণিজ্য</span>
@@ -374,7 +761,7 @@
                                         </li>
                                         <!-- item -->
                                         <li class="update_item">
-                                            <a href="" class="update_item_intro">স্কয়ার ফার্মাসিউটিক্যালসে চাকরি, ৩৪ বছর বয়সীরাও আবেদন করতে পারবেন </a>
+                                            <a href="./details.html" class="update_item_intro">স্কয়ার ফার্মাসিউটিক্যালসে চাকরি, ৩৪ বছর বয়সীরাও আবেদন করতে পারবেন </a>
                                             <div class="d-flex gap-2">
                                                 <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে |</p>
                                                 <span class="update_item_category">ক্যারিয়ার</span>
@@ -382,7 +769,7 @@
                                         </li>
                                         <!-- item -->
                                         <li class="update_item">
-                                            <a href="" class="update_item_intro">অলংকার ক্রয়-বিক্রয় ও বিপণনে বাজুসের নির্দেশিকা </a>
+                                            <a href="./details.html" class="update_item_intro">অলংকার ক্রয়-বিক্রয় ও বিপণনে বাজুসের নির্দেশিকা </a>
                                             <div class="d-flex gap-2">
                                                 <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে |</p>
                                                 <span class="update_item_category">অর্থ-বাণিজ্য</span>
@@ -390,7 +777,7 @@
                                         </li>
                                         <!-- item -->
                                         <li class="update_item">
-                                            <a href="" class="update_item_intro">বিবৃতি দিয়ে ভিয়েনা কনভেনশন নীতিমালা লঙ্ঘন করেছে ১৩ দেশ: তথ্যমন্ত্রী </a>
+                                            <a href="./details.html" class="update_item_intro">বিবৃতি দিয়ে ভিয়েনা কনভেনশন নীতিমালা লঙ্ঘন করেছে ১৩ দেশ: তথ্যমন্ত্রী </a>
                                             <div class="d-flex gap-2">
                                                 <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে |</p>
                                                 <span class="update_item_category">রাজনীতি</span>
@@ -398,7 +785,7 @@
                                         </li>
                                         <!-- item -->
                                         <li class="update_item">
-                                            <a href="" class="update_item_intro">ডেঙ্গু পরিস্থিতি এখনো মহামারি পর্যায়ে যায়নি: স্বাস্থ্যের ডিজি</a>
+                                            <a href="./details.html" class="update_item_intro">ডেঙ্গু পরিস্থিতি এখনো মহামারি পর্যায়ে যায়নি: স্বাস্থ্যের ডিজি</a>
                                             <div class="d-flex gap-2">
                                                 <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে |</p>
                                                 <span class="update_item_category">স্বাস্থ্য</span>
@@ -406,7 +793,7 @@
                                         </li>
                                         <!-- item -->
                                         <li class="update_item">
-                                            <a href="" class="update_item_intro">বিএনপির একদফা দাবি নিয়ে বিদেশিদের কোনো বক্তব্য নেই: কাদের</a>
+                                            <a href="./details.html" class="update_item_intro">বিএনপির একদফা দাবি নিয়ে বিদেশিদের কোনো বক্তব্য নেই: কাদের</a>
                                             <div class="d-flex gap-2">
                                                 <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে |</p>
                                                 <span class="update_item_category">রাজনীতি</span>
@@ -414,7 +801,7 @@
                                         </li>
                                         <!-- item -->
                                         <li class="update_item">
-                                            <a href="" class="update_item_intro">কাজুবাদাম খেলে আদৌ ওজন বাড়ে? </a>
+                                            <a href="./details.html" class="update_item_intro">কাজুবাদাম খেলে আদৌ ওজন বাড়ে? </a>
                                             <div class="d-flex gap-2">
                                                 <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে |</p>
                                                 <span class="update_item_category">লাইফ স্টাইল</span>
@@ -422,7 +809,7 @@
                                         </li>
                                         <!-- item -->
                                         <li class="update_item">
-                                            <a href="" class="update_item_intro">গণঅধিকার পরিষদের কেন্দ্রীয় কার্যালয়ে চুরির অভিযোগ </a>
+                                            <a href="./details.html" class="update_item_intro">গণঅধিকার পরিষদের কেন্দ্রীয় কার্যালয়ে চুরির অভিযোগ </a>
                                             <div class="d-flex gap-2">
                                                 <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে |</p>
                                                 <span class="update_item_category">রাজনীতি</span>
@@ -430,7 +817,7 @@
                                         </li>
                                         <!-- item -->
                                         <li class="update_item">
-                                            <a href="" class="update_item_intro">বিএনপি একটি সন্ত্রাসী দল: শেখ হাসিনা</a>
+                                            <a href="./details.html" class="update_item_intro">বিএনপি একটি সন্ত্রাসী দল: শেখ হাসিনা</a>
                                             <div class="d-flex gap-2">
                                                 <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে |</p>
                                                 <span class="update_item_category">জাতীয়</span>
@@ -438,7 +825,7 @@
                                         </li>
                                         <!-- item -->
                                         <li class="update_item">
-                                            <a href="" class="update_item_intro">কিনে রাখা আখরোট দীর্ঘদিন ভালো রাখবেন কীভাবে?  </a>
+                                            <a href="./details.html" class="update_item_intro">কিনে রাখা আখরোট দীর্ঘদিন ভালো রাখবেন কীভাবে?  </a>
                                             <div class="d-flex gap-2">
                                                 <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে |</p>
                                                 <span class="update_item_category">রান্নাঘর</span>
@@ -464,7 +851,7 @@
                                         <div class="card-body">
                                             <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                             <h5 class="card-title">
-                                                <a href="" class="card_title">বিএনপি-জামায়াত জনগণের কোনো ক্ষতি করলে রেহাই পাবে না: প্রধানমন্ত্রী</a>
+                                                <a href="./details.html" class="card_title">বিএনপি-জামায়াত জনগণের কোনো ক্ষতি করলে রেহাই পাবে না: প্রধানমন্ত্রী</a>
                                             </h5>
                                             <p class="post_intro">তিনি বলেন, 'তারা (বিএনপি-জামায়াত) ধ্বংস করতে জানে, কিছু তৈরি করতে জানে না, মানুষের সেবা করতে জানে না, তারা শুধু দুর্নীতি ও লুটপাট করতে জানে এবং সেই সঙ্গে স্বার্থ পূরণ করতে জানে।'</p>
                                         </div>
@@ -473,7 +860,7 @@
                            </div>
                            <!-- add -->
                            <div class="add mt-4">
-                                <a href="" class="add_image">
+                                <a href="./details.html" class="add_image">
                                     <img src="assets/image/news/add.jpeg" alt="">
                                 </a>
                            </div>
@@ -488,7 +875,7 @@
                 <div class="container">
                     <!-- add -->
                     <div class="add">
-                        <a href="" class="add_image">
+                        <a href="./details.html" class="add_image">
                             <img src="assets/image/news/11424409831296943180.gif" alt="add image">
                         </a>
                     </div>
@@ -505,7 +892,7 @@
                         <div class="separate_line w-100 position-relative"></div>
                         <div class="section_heading">
                             <h2>সংবাদ</h2>
-                            <a href="">সংবাদ <span><i class="fa-solid fa-chevron-right"></i></span></a>
+                            <a href="./details.html">সংবাদ <span><i class="fa-solid fa-chevron-right"></i></span></a>
                         </div>
                         <div class="separate_line w-100 position-relative"></div>
                     </div>
@@ -521,7 +908,7 @@
                                 <div class="card-body">
                                     <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                     <h5 class="card-title">
-                                        <a href="" class="card_title">বিএনপি-জামায়াত জনগণের কোনো ক্ষতি করলে রেহাই পাবে না: প্রধানমন্ত্রী</a>
+                                        <a href="./details.html" class="card_title">বিএনপি-জামায়াত জনগণের কোনো ক্ষতি করলে রেহাই পাবে না: প্রধানমন্ত্রী</a>
                                     </h5>
                                     <p class="post_intro">তিনি বলেন, 'তারা (বিএনপি-জামায়াত) ধ্বংস করতে জানে, কিছু তৈরি করতে জানে না, মানুষের সেবা করতে জানে না, তারা শুধু দুর্নীতি ও লুটপাট করতে জানে এবং সেই সঙ্গে স্বার্থ পূরণ করতে জানে।'</p>
                                 </div>
@@ -536,7 +923,7 @@
                                 <div class="card-body">
                                     <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                     <h5 class="card-title">
-                                        <a href="" class="card_title">বিএনপি-জামায়াত জনগণের কোনো ক্ষতি করলে রেহাই পাবে না: প্রধানমন্ত্রী</a>
+                                        <a href="./details.html" class="card_title">বিএনপি-জামায়াত জনগণের কোনো ক্ষতি করলে রেহাই পাবে না: প্রধানমন্ত্রী</a>
                                     </h5>
                                     <p class="post_intro">তিনি বলেন, 'তারা (বিএনপি-জামায়াত) ধ্বংস করতে জানে, কিছু তৈরি করতে জানে না, মানুষের সেবা করতে জানে না, তারা শুধু দুর্নীতি ও লুটপাট করতে জানে এবং সেই সঙ্গে স্বার্থ পূরণ করতে জানে।'</p>
                                 </div>
@@ -551,7 +938,7 @@
                                 <div class="card-body">
                                     <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                     <h5 class="card-title">
-                                        <a href="" class="card_title">বিএনপি-জামায়াত জনগণের কোনো ক্ষতি করলে রেহাই পাবে না: প্রধানমন্ত্রী</a>
+                                        <a href="./details.html" class="card_title">বিএনপি-জামায়াত জনগণের কোনো ক্ষতি করলে রেহাই পাবে না: প্রধানমন্ত্রী</a>
                                     </h5>
                                     <p class="post_intro">তিনি বলেন, 'তারা (বিএনপি-জামায়াত) ধ্বংস করতে জানে, কিছু তৈরি করতে জানে না, মানুষের সেবা করতে জানে না, তারা শুধু দুর্নীতি ও লুটপাট করতে জানে এবং সেই সঙ্গে স্বার্থ পূরণ করতে জানে।'</p>
                                 </div>
@@ -566,7 +953,7 @@
                                 <div class="card-body">
                                     <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                     <h5 class="card-title">
-                                        <a href="" class="card_title">বিএনপি-জামায়াত জনগণের কোনো ক্ষতি করলে রেহাই পাবে না: প্রধানমন্ত্রী</a>
+                                        <a href="./details.html" class="card_title">বিএনপি-জামায়াত জনগণের কোনো ক্ষতি করলে রেহাই পাবে না: প্রধানমন্ত্রী</a>
                                     </h5>
                                     <p class="post_intro">তিনি বলেন, 'তারা (বিএনপি-জামায়াত) ধ্বংস করতে জানে, কিছু তৈরি করতে জানে না, মানুষের সেবা করতে জানে না, তারা শুধু দুর্নীতি ও লুটপাট করতে জানে এবং সেই সঙ্গে স্বার্থ পূরণ করতে জানে।'</p>
                                 </div>
@@ -581,7 +968,7 @@
                                 <div class="card-body">
                                     <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                     <h5 class="card-title">
-                                        <a href="" class="card_title">বিএনপি-জামায়াত জনগণের কোনো ক্ষতি করলে রেহাই পাবে না: প্রধানমন্ত্রী</a>
+                                        <a href="./details.html" class="card_title">বিএনপি-জামায়াত জনগণের কোনো ক্ষতি করলে রেহাই পাবে না: প্রধানমন্ত্রী</a>
                                     </h5>
                                     <p class="post_intro">তিনি বলেন, 'তারা (বিএনপি-জামায়াত) ধ্বংস করতে জানে, কিছু তৈরি করতে জানে না, মানুষের সেবা করতে জানে না, তারা শুধু দুর্নীতি ও লুটপাট করতে জানে এবং সেই সঙ্গে স্বার্থ পূরণ করতে জানে।'</p>
                                 </div>
@@ -596,7 +983,7 @@
                                 <div class="card-body">
                                     <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                     <h5 class="card-title">
-                                        <a href="" class="card_title">বিএনপি-জামায়াত জনগণের কোনো ক্ষতি করলে রেহাই পাবে না: প্রধানমন্ত্রী</a>
+                                        <a href="./details.html" class="card_title">বিএনপি-জামায়াত জনগণের কোনো ক্ষতি করলে রেহাই পাবে না: প্রধানমন্ত্রী</a>
                                     </h5>
                                     <p class="post_intro">তিনি বলেন, 'তারা (বিএনপি-জামায়াত) ধ্বংস করতে জানে, কিছু তৈরি করতে জানে না, মানুষের সেবা করতে জানে না, তারা শুধু দুর্নীতি ও লুটপাট করতে জানে এবং সেই সঙ্গে স্বার্থ পূরণ করতে জানে।'</p>
                                 </div>
@@ -611,7 +998,7 @@
                                 <div class="card-body">
                                     <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                     <h5 class="card-title">
-                                        <a href="" class="card_title">বিএনপি-জামায়াত জনগণের কোনো ক্ষতি করলে রেহাই পাবে না: প্রধানমন্ত্রী</a>
+                                        <a href="./details.html" class="card_title">বিএনপি-জামায়াত জনগণের কোনো ক্ষতি করলে রেহাই পাবে না: প্রধানমন্ত্রী</a>
                                     </h5>
                                     <p class="post_intro">তিনি বলেন, 'তারা (বিএনপি-জামায়াত) ধ্বংস করতে জানে, কিছু তৈরি করতে জানে না, মানুষের সেবা করতে জানে না, তারা শুধু দুর্নীতি ও লুটপাট করতে জানে এবং সেই সঙ্গে স্বার্থ পূরণ করতে জানে।'</p>
                                 </div>
@@ -626,7 +1013,7 @@
                                 <div class="card-body">
                                     <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                     <h5 class="card-title">
-                                        <a href="" class="card_title">বিএনপি-জামায়াত জনগণের কোনো ক্ষতি করলে রেহাই পাবে না: প্রধানমন্ত্রী</a>
+                                        <a href="./details.html" class="card_title">বিএনপি-জামায়াত জনগণের কোনো ক্ষতি করলে রেহাই পাবে না: প্রধানমন্ত্রী</a>
                                     </h5>
                                     <p class="post_intro">তিনি বলেন, 'তারা (বিএনপি-জামায়াত) ধ্বংস করতে জানে, কিছু তৈরি করতে জানে না, মানুষের সেবা করতে জানে না, তারা শুধু দুর্নীতি ও লুটপাট করতে জানে এবং সেই সঙ্গে স্বার্থ পূরণ করতে জানে।'</p>
                                 </div>
@@ -646,7 +1033,7 @@
                         <div class="separate_line w-100 position-relative"></div>
                         <div class="section_heading">
                             <h2>বাংলাদেশ</h2>
-                            <a href="">বাংলাদেশ <span><i class="fa-solid fa-chevron-right"></i></span></a>
+                            <a href="./details.html">বাংলাদেশ <span><i class="fa-solid fa-chevron-right"></i></span></a>
                         </div>
                         <div class="separate_line w-100 position-relative"></div>
                     </div>
@@ -662,7 +1049,7 @@
                                     <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
         
                                     <h2 class="post_heading">
-                                        <a href="">সমাবেশ করতে ২ দলকেই শর্ত মানতে হবে: স্বরাষ্ট্রমন্ত্রী</a>
+                                        <a href="./details.html">সমাবেশ করতে ২ দলকেই শর্ত মানতে হবে: স্বরাষ্ট্রমন্ত্রী</a>
                                     </h2>
                                     <p class="post_intro">সড়কে সমাবেশ করতে ক্ষমতাসীন আওয়ামী লীগ ও বিএনপিকে শর্ত মানতে হবে বলে জানিয়েছেন স্বরাষ্ট্রমন্ত্রী আসাদুজ্জামান খান কামাল। আগামী ৩০ জুলাই অনুষ্ঠেয় মাদকদ্রব্যের অপব্যবহার ও অবৈধ পাচারবিরোধী আন্তর্জাতিক দিবস উদযাপন উপলক্ষে আজ বৃহস্পতিবার দুপুরে সচিবালয়ে আয়োজিত সংবাদ সম্মেলনে তিনি এ কথা বলেন।</p>
                                 </div>
@@ -676,7 +1063,7 @@
                                             <div class="card-body p-0">
                                                 <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                                 <h5 class="card-title">
-                                                    <a href="" class="card_title">জেলা আওয়ামী লীগের যুগ্ম সম্পাদক মোর্তুজা কারাগারে, চারজনের জামিন</a>
+                                                    <a href="./details.html" class="card_title">জেলা আওয়ামী লীগের যুগ্ম সম্পাদক মোর্তুজা কারাগারে, চারজনের জামিন</a>
                                                 </h5>
                                                 <p class="post_intro">নাটোরে ওয়ার্ড যুবলীগ নেতা মিঠুন আলীর ওপর হামলা চালিয়ে কবজি বিচ্ছিন্নের ঘটনায় হওয়া মামলায় জেলা আওয়ামী লীগের যুগ্ম সাধারণ সম্পাদক মোর্তুজা আলী ওরফে বাবলুকে কারাগারে পাঠানোর নির্দেশ দিয়েছেন আদালত। আজ বৃহস্পতিবার দুপুরে আত্মসমর্পণ করে জামিনের আবেদন করলে নাটোর সদর আমলি আদালতের বিচারক রওশন আলম এই আদেশ দেন।</p>
                                             </div>
@@ -689,7 +1076,7 @@
                                             <div class="card-body p-0">
                                                 <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                                 <h5 class="card-title">
-                                                    <a href="" class="card_title">সড়ক সংস্কারে অনিয়ম, কাজ সাময়িক বন্ধ</a>
+                                                    <a href="./details.html" class="card_title">সড়ক সংস্কারে অনিয়ম, কাজ সাময়িক বন্ধ</a>
                                                 </h5>
                                                 <p class="post_intro">দিনাজপুর শহরের স্টেশন রোড থেকে পৌরসভা অফিস পর্যন্ত ৩৫৯ মিটার রাস্তার নির্মাণকাজে অনিয়মের অভিযোগ উঠেছে। ঠিকাদার চুক্তিপত্রে উল্লেখিত শর্ত অনুযায়ী নির্মাণকাজ না করায় গত মঙ্গলবার বিকেলে সাময়িকভাবে কাজ বন্ধ করে দেন সদর উপজেলা প্রকৌশলী নিতীশ কুমার। তবে গতকাল বুধবার সকালে আবার কাজ শুরু করেছেন ঠিকাদার। </p>
                                             </div>
@@ -705,7 +1092,7 @@
                                         <div class="card-body p-0">
                                             <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                             <h5 class="card-title">
-                                                <a href="" class="card_title">বিএনপি-জামায়াত জনগণের কোনো ক্ষতি করলে রেহাই পাবে না: প্রধানমন্ত্রী</a>
+                                                <a href="./details.html" class="card_title">বিএনপি-জামায়াত জনগণের কোনো ক্ষতি করলে রেহাই পাবে না: প্রধানমন্ত্রী</a>
                                             </h5>
                                             <p class="post_intro">তিনি বলেন, 'তারা (বিএনপি-জামায়াত) ধ্বংস করতে জানে, কিছু তৈরি করতে জানে না, মানুষের সেবা করতে জানে না, তারা শুধু দুর্নীতি ও লুটপাট করতে জানে এবং সেই সঙ্গে স্বার্থ পূরণ করতে জানে।'</p>
                                         </div>
@@ -716,7 +1103,7 @@
                                         <div class="card-body p-0">
                                             <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                             <h5 class="card-title">
-                                                <a href="" class="card_title">ক্ষমা চেয়ে অভিযোগ থেকে অব্যাহতি পেলেন কক্সবাজারের জেলা জজ 
+                                                <a href="./details.html" class="card_title">ক্ষমা চেয়ে অভিযোগ থেকে অব্যাহতি পেলেন কক্সবাজারের জেলা জজ 
                                                     ক্ষমা চেয়ে অভিযোগ থেকে অব্যাহতি পেলেন কক্সবাজারের জেলা জজ </a>
                                             </h5>
                                             <p class="post_intro">কক্সবাজারের জেলা জজ মোহাম্মদ ইসমাঈলের নিঃশর্ত ক্ষমা প্রার্থনার আবেদন গ্রহণ করে অভিযোগ থেকে অব্যাহতি দিয়েছেন হাইকোর্ট। বৃহস্পতিবার (২৭ জুলাই) হাইকোর্টের বিচারপতি মো. হাবিবুল গণি ও বিচারপতি আহমেদ সোহেলের সমন্বয়ে গঠিত বেঞ্চ এ আদেশ দেন। সেই সঙ্গে বিচারিক আদালতে জেলা জজ কোর্ট থেকে পাওয়া ৯ আসামির জামিন কেন বাতিল করা হবে না তা জানতে চেয়ে রুল জারি করেছেন আদালত। বিষয়টি নিশ্চিত করেছেন রিট আবেদনকারী আইনজীবী ব্যারিস্টার এ বি এম আলতাফ হোসেন।</p>
@@ -728,7 +1115,7 @@
                                         <div class="card-body p-0">
                                             <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                             <h5 class="card-title">
-                                                <a href="" class="card_title">এবার বায়তুল মোকাররমের দক্ষিণ গেটে সমাবেশ করতে চায় আওয়ামী লীগের ৩ সংগঠন</a>
+                                                <a href="./details.html" class="card_title">এবার বায়তুল মোকাররমের দক্ষিণ গেটে সমাবেশ করতে চায় আওয়ামী লীগের ৩ সংগঠন</a>
                                             </h5>
                                             <p class="post_intro">স্বেচ্ছাসেবক লীগের সাধারণ সম্পাদক আফজালুর রহমান প্রথম আলোকে বলেন,  ‘বঙ্গবন্ধু আন্তর্জাতিক সম্মেলন কেন্দ্রে রাষ্ট্রপতির অনুষ্ঠান</p>
                                         </div>
@@ -739,7 +1126,7 @@
                                         <div class="card-body p-0">
                                             <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                             <h5 class="card-title">
-                                                <a href="" class="card_title">আশ্রয়শিবির পরিদর্শনে ইইউর প্রতিনিধিদল, রোহিঙ্গারা তুলে ধরলেন নিপীড়নের বর্ণনা</a>
+                                                <a href="./details.html" class="card_title">আশ্রয়শিবির পরিদর্শনে ইইউর প্রতিনিধিদল, রোহিঙ্গারা তুলে ধরলেন নিপীড়নের বর্ণনা</a>
                                             </h5>
                                             <p class="post_intro">কক্সবাজারের উখিয়ার রোহিঙ্গা আশ্রয়শিবির পরিদর্শন করেছে বাংলাদেশ সফরে আসা ইউরোপীয় ইউনিয়নের (ইইউ) পাঁচ সদস্যের প্রতিনিধিদল। এ সময় কয়েকজন রোহিঙ্গা প্রতিনিধিদলের কাছে রাখাইন রাজ্যে তাঁদের ওপর হওয়া নিপীড়ন–নির্যাতনের বর্ণনা তুলে ধরেন। একই সঙ্গে প্রত্যাবাসন নিয়ে বিভিন্ন দাবিদাওয়ার কথাও জানান তাঁরা।</p>
                                         </div>
@@ -750,7 +1137,7 @@
                         <div class="col-md-6 col-lg-3">
                             <!-- add -->
                             <div class="add">
-                                <a href="" class="add_image">
+                                <a href="./details.html" class="add_image">
                                     <img src="assets/image/add/6590592196136328000.gif" alt="">
                                 </a>
                            </div>
@@ -1933,7 +2320,7 @@
                         <div class="separate_line w-100 position-relative"></div>
                         <div class="section_heading">
                             <h2>আন্তর্জাতিক</h2>
-                            <a href="">আন্তর্জাতিক <span><i class="fa-solid fa-chevron-right"></i></span></a>
+                            <a href="./details.html">আন্তর্জাতিক <span><i class="fa-solid fa-chevron-right"></i></span></a>
                         </div>
                         <div class="separate_line w-100 position-relative"></div>
                     </div>
@@ -1949,7 +2336,7 @@
                                 <div class="card-body">
                                     <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                     <h5 class="card-title">
-                                        <a href="" class="card_title">আব্বাস-হানিয়ার সঙ্গে রুদ্ধদ্বার বৈঠক এরদোয়ানের</a>
+                                        <a href="./details.html" class="card_title">আব্বাস-হানিয়ার সঙ্গে রুদ্ধদ্বার বৈঠক এরদোয়ানের</a>
                                     </h5>
                                     <p class="post_intro">ফিলিস্তিনের প্রেসিডেন্ট মাহমুদ আব্বাস ও হামাস নেতা ইসমাইল হানিয়ার সঙ্গে রুদ্ধদ্বার বৈঠক করেছেন তুরস্কের প্রেসিডেন্ট রিসেপ তাইয়েপ এরদোয়ান। গতকাল মঙ্গলবার (২৫ জুলাই) তুরস্কের রাজধানী আংকারায় এরদোয়ানের কার্যালয়ে তাদের এ বৈঠক অনুষ্ঠিত হয়েছে।</p>
                                 </div>
@@ -1963,7 +2350,7 @@
                                         <div class="card-body p-0">
                                             <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                             <h5 class="card-title">
-                                                <a href="" class="card_title">চীনে লড়াইরত ডাইনোসর ও স্তন্যপায়ী প্রাণির জীবাশ্ম উদ্ধার</a>
+                                                <a href="./details.html" class="card_title">চীনে লড়াইরত ডাইনোসর ও স্তন্যপায়ী প্রাণির জীবাশ্ম উদ্ধার</a>
                                             </h5>
                                             <p class="post_intro">নিজের চেয়ে ৩ গুণ বড় আকারের ডাইনোসরের পাঁজরে দাঁত বসিয়েছে কিছুটা বেজীর মতো দেখতে ১টি স্তন্যপায়ী প্রাণি। ২ জনের মধ্যে চলছিল জোরদার লড়াই। সে সময় জেগে ওঠে আগ্নেয়গিরি। অগ্নুৎপাতে ১২৫ মিলিয়ন বছর আগে সমাধি লাভ করে তারা৷ কালের আবর্তে পরিণত হয় জীবাশ্মে।</p>
                                         </div>
@@ -1974,7 +2361,7 @@
                                         <div class="card-body p-0">
                                             <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                             <h5 class="card-title">
-                                                <a href="" class="card_title">ভিসা ছাড়া আর ইউরোপে যেতে পারবেন না আমেরিকানরা</a>
+                                                <a href="./details.html" class="card_title">ভিসা ছাড়া আর ইউরোপে যেতে পারবেন না আমেরিকানরা</a>
                                             </h5>
                                             <p class="post_intro">বিশ্ব পর্যটনে নতুন করে বদলের আভাস দেখা যাচ্ছে। এখন আর চাইলে যুক্তরাষ্ট্রের অধিবাসীরাও আগের মতো ভিসা ছাড়া ইউরোপে ঘুরতে যেতে পারবেন না। প্রয়োজন হবে একটি আলাদা অনুমোদনের।</p>
                                         </div>
@@ -1985,7 +2372,7 @@
                                         <div class="card-body p-0">
                                             <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                             <h5 class="card-title">
-                                                <a href="" class="card_title">২০ বছরে প্রথম কোনো নারীর মৃত্যুদণ্ড কার্যকর করবে সিঙ্গাপুর
+                                                <a href="./details.html" class="card_title">২০ বছরে প্রথম কোনো নারীর মৃত্যুদণ্ড কার্যকর করবে সিঙ্গাপুর
                                                 </a>
                                             </h5>
                                             <p class="post_intro">মাদক পাচারের দায়ে দুই দশকের মধ্যে প্রথমবারের মত কোনও নারীর মৃত্যুদণ্ড কার্যকর করতে যাচ্ছে সিঙ্গাপুর। চলতি সপ্তাহে তার ফাঁসি কার্যকর করার কথা রয়েছে। এ ছাড়া আরও এক চোরাকারবারীর ফাঁসি কার্যকর করা হতে পারে দেশটিতে।</p>
@@ -2005,7 +2392,7 @@
                                         </div>
                                         <div class="card-body p-0 mt-2">
                                             <h5 class="card-title">
-                                                <a href="" class="card_title">চীন যাচ্ছেন পুতিন, পরিকল্পনায় তুরস্ক-ভারত সফরও</a>
+                                                <a href="./details.html" class="card_title">চীন যাচ্ছেন পুতিন, পরিকল্পনায় তুরস্ক-ভারত সফরও</a>
                                             </h5>
                                         </div>
                                     </div>
@@ -2017,7 +2404,7 @@
                                         </div>
                                         <div class="card-body p-0 mt-2">
                                             <h5 class="card-title">
-                                                <a href="" class="card_title">১৩ রাষ্ট্রদূতকে ডেকে নেওয়া ইস্যুতে যা বলল যুক্তরাষ্ট্র</a>
+                                                <a href="./details.html" class="card_title">১৩ রাষ্ট্রদূতকে ডেকে নেওয়া ইস্যুতে যা বলল যুক্তরাষ্ট্র</a>
                                             </h5>
                                         </div>
                                     </div>
@@ -2029,7 +2416,7 @@
                                         </div>
                                         <div class="card-body p-0 mt-2">
                                             <h5 class="card-title">
-                                                <a href="" class="card_title">নাইজারে সামরিক অভ্যুত্থান, দেশজুড়ে কারফিউ</a>
+                                                <a href="./details.html" class="card_title">নাইজারে সামরিক অভ্যুত্থান, দেশজুড়ে কারফিউ</a>
                                             </h5>
                                         </div>
                                     </div>
@@ -2041,7 +2428,7 @@
                                         </div>
                                         <div class="card-body p-0 mt-2">
                                             <h5 class="card-title">
-                                                <a href="" class="card_title">মিশরের প্রেসিডেন্ট এল-সিসির সঙ্গে বৈঠক পুতিনের
+                                                <a href="./details.html" class="card_title">মিশরের প্রেসিডেন্ট এল-সিসির সঙ্গে বৈঠক পুতিনের
                                                 </a>
                                             </h5>
                                         </div>
@@ -2054,7 +2441,7 @@
                                         </div>
                                         <div class="card-body p-0 mt-2">
                                             <h5 class="card-title">
-                                                <a href="" class="card_title">রুশ প্রতিরক্ষা প্রধান শোইগুকে ক্ষেপণাস্ত্র দেখালেন কিম জং উন
+                                                <a href="./details.html" class="card_title">রুশ প্রতিরক্ষা প্রধান শোইগুকে ক্ষেপণাস্ত্র দেখালেন কিম জং উন
                                                 </a>
                                             </h5>
                                         </div>
@@ -2067,7 +2454,7 @@
                                         </div>
                                         <div class="card-body p-0 mt-2">
                                             <h5 class="card-title">
-                                                <a href="" class="card_title">সউদী আরবে লাখেরও বেশি নারী উবার চালাচ্ছেন
+                                                <a href="./details.html" class="card_title">সউদী আরবে লাখেরও বেশি নারী উবার চালাচ্ছেন
                                                 </a>
                                             </h5>
                                         </div>
@@ -2078,13 +2465,13 @@
                         <div class="col-md-6 col-lg-2">
                             <!-- add -->
                             <div class="add">
-                                <a href="" class="add_image">
+                                <a href="./details.html" class="add_image">
                                     <img src="assets/image/add/ponds.gif" alt="">
                                 </a>
                            </div>
                            <!-- add -->
                             <div class="add">
-                                <a href="" class="add_image mt-4">
+                                <a href="./details.html" class="add_image mt-4">
                                     <img src="assets/image/add/book.jpeg" alt="">
                                 </a>
                            </div>
@@ -2103,7 +2490,7 @@
                         <div class="separate_line w-100 position-relative"></div>
                         <div class="section_heading">
                             <h2>খেলা</h2>
-                            <a href="">খেলা <span><i class="fa-solid fa-chevron-right"></i></span></a>
+                            <a href="./details.html">খেলা <span><i class="fa-solid fa-chevron-right"></i></span></a>
                         </div>
                         <div class="separate_line w-100 position-relative"></div>
                     </div>
@@ -2118,7 +2505,7 @@
                                     <div class="card-body">
                                         <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">আবরার-নাসিমের তোপে প্রথম দিনেই চাপে শ্রীলঙ্কা</a>
+                                            <a href="./details.html" class="card_title">আবরার-নাসিমের তোপে প্রথম দিনেই চাপে শ্রীলঙ্কা</a>
                                         </h5>
                                         <p class="post_intro">সিরিজ হার এড়াতে হলে জয়ের কোনো বিকল্প নেই শ্রীলঙ্কার। তবে শুরুটা ভালো করতে পারেনি দলটি। পাকিস্তানি লেগস্পিনার আবরার আহমেদের ঘূর্ণির সঙ্গে নাসিম শাহর তোপে প্রথম দিনেই চাপে দলটি।</p>
                                     </div>
@@ -2133,7 +2520,7 @@
                                             </div>
                                             <div class="card-body">
                                                 <h5 class="card-title">
-                                                    <a href="" class="card_title">অস্ট্রেলিয়া ভ্রমণে এবার হাথুরুসিং</a>
+                                                    <a href="./details.html" class="card_title">অস্ট্রেলিয়া ভ্রমণে এবার হাথুরুসিং</a>
                                                 </h5>
                                             </div>
                                         </div>
@@ -2145,7 +2532,7 @@
                                             </div>
                                             <div class="card-body">
                                                 <h5 class="card-title">
-                                                    <a href="" class="card_title">নতুন মৌসুমে আরও ভালো হবেন হালান্ড, বললেন গার্দিওলা</a>
+                                                    <a href="./details.html" class="card_title">নতুন মৌসুমে আরও ভালো হবেন হালান্ড, বললেন গার্দিওলা</a>
                                                 </h5>
                                             </div>
                                         </div>
@@ -2157,7 +2544,7 @@
                                             </div>
                                             <div class="card-body">
                                                 <h5 class="card-title">
-                                                    <a href="" class="card_title">তাঁর চেয়ে কম বয়সে কেউ খেলেননি ফুটবল বিশ্বকাপে</a>
+                                                    <a href="./details.html" class="card_title">তাঁর চেয়ে কম বয়সে কেউ খেলেননি ফুটবল বিশ্বকাপে</a>
                                                 </h5>
                                             </div>
                                         </div>
@@ -2169,7 +2556,7 @@
                                             </div>
                                             <div class="card-body">
                                                 <h5 class="card-title">
-                                                    <a href="" class="card_title">লঙ্কান প্রিমিয়ার লিগে খেলতে ছাড়পত্র চেয়েছেন হৃদয়</a>
+                                                    <a href="./details.html" class="card_title">লঙ্কান প্রিমিয়ার লিগে খেলতে ছাড়পত্র চেয়েছেন হৃদয়</a>
                                                 </h5>
                                             </div>
                                         </div>
@@ -2181,7 +2568,7 @@
                                             </div>
                                             <div class="card-body">
                                                 <h5 class="card-title">
-                                                    <a href="" class="card_title">ছাড়পত্র পেলে লঙ্কান প্রিমিয়ার লিগ খেলবেন তাসকিনও</a>
+                                                    <a href="./details.html" class="card_title">ছাড়পত্র পেলে লঙ্কান প্রিমিয়ার লিগ খেলবেন তাসকিনও</a>
                                                 </h5>
                                             </div>
                                         </div>
@@ -2193,7 +2580,7 @@
                                             </div>
                                             <div class="card-body">
                                                 <h5 class="card-title">
-                                                    <a href="" class="card_title">হারমানপ্রিতের বিরুদ্ধে কঠোর ব্যবস্থা নেয়ার দাবি ভারতের সাবেক তারকার</a>
+                                                    <a href="./details.html" class="card_title">হারমানপ্রিতের বিরুদ্ধে কঠোর ব্যবস্থা নেয়ার দাবি ভারতের সাবেক তারকার</a>
                                                 </h5>
                                             </div>
                                         </div>
@@ -2213,59 +2600,59 @@
                                                 <div class="flex-shrink-0">
                                                     <img src="assets/image/play/bangladesh-champions-league.png" alt="">
                                                 </div>
-                                                <a href="" class="flex-grow-1 ms-2">আইসিসি টেস্ট চ্যাম্পিয়নশিপ ফাইনাল</a>
+                                                <a href="./details.html" class="flex-grow-1 ms-2">আইসিসি টেস্ট চ্যাম্পিয়নশিপ ফাইনাল</a>
                                             </li>
                                             <!-- item -->
                                             <li class="event_item d-flex align-items-center position-relative">
                                                 <div class="flex-shrink-0">
                                                     <img src="assets/image/play/bangladesh-premier-league.png" alt="">
                                                 </div>
-                                                <a href="" class="flex-grow-1 ms-2">বাংলাদেশ প্রিমিয়ার লিগ</a>
+                                                <a href="./details.html" class="flex-grow-1 ms-2">বাংলাদেশ প্রিমিয়ার লিগ</a>
                                             </li>
                                             <!-- item -->
                                             <li class="event_item d-flex align-items-center position-relative">
                                                 <div class="flex-shrink-0">
                                                     <img src="assets/image/play/english-premier-league.png" alt="">
                                                 </div>
-                                                <a href="" class="flex-grow-1 ms-2">ইপিএল</a>
+                                                <a href="./details.html" class="flex-grow-1 ms-2">ইপিএল</a>
                                             </li>
                                             <!-- item -->
                                             <li class="event_item d-flex align-items-center position-relative">
                                                 <div class="flex-shrink-0">
                                                     <img src="assets/image/play/french-league.png" alt="">
                                                 </div>
-                                                <a href="" class="flex-grow-1 ms-2">ফ্রেঞ্চ লিগ</a>
+                                                <a href="./details.html" class="flex-grow-1 ms-2">ফ্রেঞ্চ লিগ</a>
                                             </li>
                                             <!-- item -->
                                             <li class="event_item d-flex align-items-center position-relative">
                                                 <div class="flex-shrink-0">
                                                     <img src="assets/image/play/south-africa-india-series.png" alt="">
                                                 </div>
-                                                <a href="" class="flex-grow-1 ms-2">আইসিসি টেস্ট চ্যাম্পিয়নশিপ ফাইনাল</a>
+                                                <a href="./details.html" class="flex-grow-1 ms-2">আইসিসি টেস্ট চ্যাম্পিয়নশিপ ফাইনাল</a>
                                             </li>
                                             <!-- item -->
                                             <li class="event_item d-flex align-items-center position-relative">
                                                 <div class="flex-shrink-0">
                                                     <img src="assets/image/play/saff-championship.png" alt="">
                                                 </div>
-                                                <a href="" class="flex-grow-1 ms-2">সাফ চ্যাম্পিয়নশিপ ফুটবল</a>
+                                                <a href="./details.html" class="flex-grow-1 ms-2">সাফ চ্যাম্পিয়নশিপ ফুটবল</a>
                                             </li>
                                             <!-- item -->
                                             <li class="event_item d-flex align-items-center position-relative">
                                                 <div class="flex-shrink-0">
                                                     <img src="assets/image/play/independence-cup.png" alt="">
                                                 </div>
-                                                <a href="" class="flex-grow-1 ms-2">স্বাধীনতা কাপ</a>
+                                                <a href="./details.html" class="flex-grow-1 ms-2">স্বাধীনতা কাপ</a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4 col-lg-2">
-                                <a href="" class="add_image">
+                                <a href="./details.html" class="add_image">
                                     <img src="assets/image/add/byeone.png" alt="">
                                 </a>
-                                <a href="" class="add_image mt-4">
+                                <a href="./details.html" class="add_image mt-4">
                                     <img src="assets/image/add/bonfol2-7-23.gif" alt="">
                                 </a>
                             </div>
@@ -2280,7 +2667,7 @@
                 <div class="container">
                     <!-- add -->
                     <div class="add">
-                        <a href="" class="add_image">
+                        <a href="./details.html" class="add_image">
                             <img src="assets/image/add/8986238259079179329.gif" alt="add image">
                         </a>
                     </div>
@@ -2297,7 +2684,7 @@
                         <div class="separate_line w-100 position-relative"></div>
                         <div class="section_heading">
                             <h2>বিনোদন</h2>
-                            <a href="">বিনোদন<span><i class="fa-solid fa-chevron-right"></i></span></a>
+                            <a href="./details.html">বিনোদন<span><i class="fa-solid fa-chevron-right"></i></span></a>
                         </div>
                         <div class="separate_line w-100 position-relative"></div>
                     </div>
@@ -2315,7 +2702,7 @@
                                     <div class="card-body">
                                         <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">ওপেনহাইমার: নায়কের মহাকাব্যিক আখ্যান নাকি আমেরিকার আদিপাপের স্বাভাবিকীকরণ</a>
+                                            <a href="./details.html" class="card_title">ওপেনহাইমার: নায়কের মহাকাব্যিক আখ্যান নাকি আমেরিকার আদিপাপের স্বাভাবিকীকরণ</a>
                                         </h5>
                                         <p class="post_intro">যদি আকাশে সহস্র সূর্যের প্রভা যুগপৎ উদিত হয়, তাহলে সেই মহাত্মা বিশ্বরূপের প্রভার কিঞ্চিৎ তুল্য হতে পারে—গীতার এই শ্লোক আউরে নিজ হাতে গড়া মারণাস্ত্রের সফল পরীক্ষা উদ্‌যাপন করেছিলেন ওপেনহাইমার। তাঁর মতো মৃদুভাষি চাপা স্বভাবের জ্ঞানী মানুষ আনন্দিত হলেও নিজের সৃষ্ট তেজস্ক্রিয় বোমার মতো ফেটে পড়েননি।</p>
                                     </div>
@@ -2334,7 +2721,7 @@
                                             <!-- time -->
                                             <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                             <h5 class="card-title">
-                                                <a href="" class="card_title">‘বার্বি’র সিকুয়েলে অভিনয় করতে চান ‘ওপেনহাইমার’ অভিনেতা কিলিয়ান মারফি</a>
+                                                <a href="./details.html" class="card_title">‘বার্বি’র সিকুয়েলে অভিনয় করতে চান ‘ওপেনহাইমার’ অভিনেতা কিলিয়ান মারফি</a>
                                             </h5>
                                         </div>
                                     </div>
@@ -2347,7 +2734,7 @@
                                             <!-- time -->
                                             <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                             <h5 class="card-title">
-                                                <a href="" class="card_title">হৃদি হকের সিনেমার গান ‘যাচ্ছো কোথায়’</a>
+                                                <a href="./details.html" class="card_title">হৃদি হকের সিনেমার গান ‘যাচ্ছো কোথায়’</a>
                                             </h5>
                                         </div>
                                     </div>
@@ -2360,7 +2747,7 @@
                                             <!-- time -->
                                             <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                             <h5 class="card-title">
-                                                <a href="" class="card_title">গানের সঙ্গে গ্ল্যামার একজন শিল্পীর জন্য প্লাস পয়েন্ট, দোষের কিছু না: কোনাল</a>
+                                                <a href="./details.html" class="card_title">গানের সঙ্গে গ্ল্যামার একজন শিল্পীর জন্য প্লাস পয়েন্ট, দোষের কিছু না: কোনাল</a>
                                             </h5>
                                         </div>
                                     </div>
@@ -2373,7 +2760,7 @@
                                             <!-- time -->
                                             <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                             <h5 class="card-title">
-                                                <a href="" class="card_title">‘পাতালঘরে’ আমি সিঙ্গেল মাদার: আফসানা মিমি</a>
+                                                <a href="./details.html" class="card_title">‘পাতালঘরে’ আমি সিঙ্গেল মাদার: আফসানা মিমি</a>
                                             </h5>
                                         </div>
                                     </div>
@@ -2392,7 +2779,7 @@
                                             <!-- time -->
                                             <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                             <h5 class="card-title">
-                                                <a href="" class="card_title">‘বার্বি’র সিকুয়েলে অভিনয় করতে চান ‘ওপেনহাইমার’ অভিনেতা কিলিয়ান মারফি</a>
+                                                <a href="./details.html" class="card_title">‘বার্বি’র সিকুয়েলে অভিনয় করতে চান ‘ওপেনহাইমার’ অভিনেতা কিলিয়ান মারফি</a>
                                             </h5>
                                         </div>
                                     </div>
@@ -2405,7 +2792,7 @@
                                             <!-- time -->
                                             <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                             <h5 class="card-title">
-                                                <a href="" class="card_title">হৃদি হকের সিনেমার গান ‘যাচ্ছো কোথায়’</a>
+                                                <a href="./details.html" class="card_title">হৃদি হকের সিনেমার গান ‘যাচ্ছো কোথায়’</a>
                                             </h5>
                                         </div>
                                     </div>
@@ -2418,7 +2805,7 @@
                                             <!-- time -->
                                             <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                             <h5 class="card-title">
-                                                <a href="" class="card_title">গানের সঙ্গে গ্ল্যামার একজন শিল্পীর জন্য প্লাস পয়েন্ট, দোষের কিছু না: কোনাল</a>
+                                                <a href="./details.html" class="card_title">গানের সঙ্গে গ্ল্যামার একজন শিল্পীর জন্য প্লাস পয়েন্ট, দোষের কিছু না: কোনাল</a>
                                             </h5>
                                         </div>
                                     </div>
@@ -2431,7 +2818,7 @@
                                             <!-- time -->
                                             <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                             <h5 class="card-title">
-                                                <a href="" class="card_title">‘পাতালঘরে’ আমি সিঙ্গেল মাদার: আফসানা মিমি</a>
+                                                <a href="./details.html" class="card_title">‘পাতালঘরে’ আমি সিঙ্গেল মাদার: আফসানা মিমি</a>
                                             </h5>
                                         </div>
                                     </div>
@@ -2454,7 +2841,7 @@
                                 <div class="separate_line w-100 position-relative"></div>
                                 <div class="section_heading">
                                     <h2>স্বাস্থ্য</h2>
-                                    <a href="">স্বাস্থ্য <span><i class="fa-solid fa-chevron-right"></i></span></a>
+                                    <a href="./details.html">স্বাস্থ্য <span><i class="fa-solid fa-chevron-right"></i></span></a>
                                 </div>
                                 <div class="separate_line w-100 position-relative"></div>
                             </div>
@@ -2468,7 +2855,7 @@
                                     <div class="card-body p-0 pt-4">
                                         <p class="post_interval"><span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">ডেঙ্গুতে ২৪ ঘণ্টায় আরও ৪ জনের মৃত্যু, হাসপাতালে ২৬৯৪</a>
+                                            <a href="./details.html" class="card_title">ডেঙ্গুতে ২৪ ঘণ্টায় আরও ৪ জনের মৃত্যু, হাসপাতালে ২৬৯৪</a>
                                         </h5>
                                         <p class="post_intro">দেশে গত ২৪ ঘণ্টায় ডেঙ্গু জ্বরে আক্রান্ত হয়ে ৪ জন মারা গেছেন। একই সময়ে আরও ২ হাজার ৬৯৪ জন হাসপাতালে ভর্তি হয়েছেন।এ নিয়ে চলতি বছর ডেঙ্গুতে মোট ২৫১ জন মারা গেলেন।সর্বশেষ খবর দ্য ডেইলি স্টার বাংলার গুগল নিউজ চ্যানেলে।আজ সোমবার গণমাধ্যমে পাঠানো সংবাদ বিজ্ঞপ্তিতে স্বাস্থ্য অধিদপ্তর এসব তথ্য জানিয়েছে। গত ২৪ ঘণ্টায় মারা যাওয়া ৪ জনই ঢাকার।</p>
                                     </div>
@@ -2480,7 +2867,7 @@
                                     </div>
                                     <div class="card-body p-0">
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">বর্তমান সময়ের পরিচিত শব্দ ভ্লগ। অডিও এর পাশাপাশি ভিজুয়াল মাধ্যমে ব্লগিং</a>
+                                            <a href="./details.html" class="card_title">বর্তমান সময়ের পরিচিত শব্দ ভ্লগ। অডিও এর পাশাপাশি ভিজুয়াল মাধ্যমে ব্লগিং</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -2491,7 +2878,7 @@
                                     </div>
                                     <div class="card-body p-0">
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">বর্তমান সময়ের পরিচিত শব্দ ভ্লগ। অডিও এর পাশাপাশি ভিজুয়াল মাধ্যমে ব্লগিং</a>
+                                            <a href="./details.html" class="card_title">বর্তমান সময়ের পরিচিত শব্দ ভ্লগ। অডিও এর পাশাপাশি ভিজুয়াল মাধ্যমে ব্লগিং</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -2502,7 +2889,7 @@
                                     </div>
                                     <div class="card-body p-0">
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">বর্তমান সময়ের পরিচিত শব্দ ভ্লগ। অডিও এর পাশাপাশি ভিজুয়াল মাধ্যমে ব্লগিং</a>
+                                            <a href="./details.html" class="card_title">বর্তমান সময়ের পরিচিত শব্দ ভ্লগ। অডিও এর পাশাপাশি ভিজুয়াল মাধ্যমে ব্লগিং</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -2515,7 +2902,7 @@
                                 <div class="separate_line w-100 position-relative"></div>
                                 <div class="section_heading">
                                     <h2>শিক্ষা </h2>
-                                    <a href="">শিক্ষা <span><i class="fa-solid fa-chevron-right"></i></span></a>
+                                    <a href="./details.html">শিক্ষা <span><i class="fa-solid fa-chevron-right"></i></span></a>
                                 </div>
                                 <div class="separate_line w-100 position-relative"></div>
                             </div>
@@ -2530,7 +2917,7 @@
                                     <div class="card-body p-0 pt-4">
                                         <p class="post_interval"><span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">৪৮টি শিক্ষাপ্রতিষ্ঠান থেকে একজনও পাস করেনি
+                                            <a href="./details.html" class="card_title">৪৮টি শিক্ষাপ্রতিষ্ঠান থেকে একজনও পাস করেনি
                                             </a>
                                         </h5>
                                         <p class="post_intro">চলতি বছরের এসএসসি ও সমমানের পরীক্ষায় ৪৮টি শিক্ষাপ্রতিষ্ঠান থেকে একজন শিক্ষার্থীও পাস করতে পারেনি। গত বছর এমন প্রতিষ্ঠান ছিল ৫০টি। আজ শুক্রবার এসএসসি ও সমমানের পরীক্ষার ফলাফল প্রকাশিত হয়েছে।</p>
@@ -2543,7 +2930,7 @@
                                     </div>
                                     <div class="card-body p-0">
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">চীনের ছয় বিশ্ববিদ্যালয়ে বৃত্তি, সুযোগ বাংলাদেশি শিক্ষার্থীদেরও
+                                            <a href="./details.html" class="card_title">চীনের ছয় বিশ্ববিদ্যালয়ে বৃত্তি, সুযোগ বাংলাদেশি শিক্ষার্থীদেরও
                                                 চীনের ছয় বিশ্ববিদ্যালয়ে বৃত্তি, সুযোগ বাংলাদেশি শিক্ষার্থীদেরও</a>
                                         </h5>
                                     </div>
@@ -2555,7 +2942,7 @@
                                     </div>
                                     <div class="card-body p-0">
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">ব্রুনেইয়ে বৃত্তি, আইএলটিএসে ৬ হলেই আবেদন</a>
+                                            <a href="./details.html" class="card_title">ব্রুনেইয়ে বৃত্তি, আইএলটিএসে ৬ হলেই আবেদন</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -2566,7 +2953,7 @@
                                     </div>
                                     <div class="card-body p-0">
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">মাধ্যমিক বিদ্যালয়ে প্রধান শিক্ষিকা-শিক্ষক পদে ৭৭ জনের পদোন্নতি</a>
+                                            <a href="./details.html" class="card_title">মাধ্যমিক বিদ্যালয়ে প্রধান শিক্ষিকা-শিক্ষক পদে ৭৭ জনের পদোন্নতি</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -2579,7 +2966,7 @@
                                 <div class="separate_line w-100 position-relative"></div>
                                 <div class="section_heading">
                                     <h2>বিজ্ঞান ও প্রযুক্তি</h2>
-                                    <a href="">বিজ্ঞান ও প্রযুক্তি <span><i class="fa-solid fa-chevron-right"></i></span></a>
+                                    <a href="./details.html">বিজ্ঞান ও প্রযুক্তি <span><i class="fa-solid fa-chevron-right"></i></span></a>
                                 </div>
                                 <div class="separate_line w-100 position-relative"></div>
                             </div>
@@ -2594,7 +2981,7 @@
                                     <div class="card-body p-0 pt-4">
                                         <p class="post_interval"><span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">ইলন মাস্কের স্টারলিংককে যেসব শর্ত দিলো বাংলাদেশ</a>
+                                            <a href="./details.html" class="card_title">ইলন মাস্কের স্টারলিংককে যেসব শর্ত দিলো বাংলাদেশ</a>
                                         </h5>
                                         <p class="post_intro">বাংলাদেশের বাজারে নিজেদের ব্যবসা সম্প্রসারণ করতে চায় বিশ্বের শীর্ষ প্রযুক্তি উদ্যোক্তা ইলন মাস্কের মালিকানাধীন প্রতিষ্ঠান স্টারলিংক। দীর্ঘদিন ধরে আগ্রহ দেখানোর পর সরকারের মন্ত্রীদের সঙ্গে বৈঠকে অংশ নিয়েছেন স্টারলিংকের প্রতিনিধিরা। আগেরবার সরাসরি ‘না’ করে দিলেও এবার সরকার তাদের ব্যবসা ও প্রযুক্তি বুঝতে চায়। পাশাপাশি টেলিযোগাযোগ খাতে সরকারের বিধিসম্মত প্রবেশাধিকারের (ল’ফুল ইন্টারসেপশন) বা নজরদারির যে নীতি আছে, সে ব্যাপারে শর্ত দেওয়া হয়েছে স্টারলিংককে।</p>
                                     </div>
@@ -2606,7 +2993,7 @@
                                     </div>
                                     <div class="card-body p-0">
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">বর্তমান সময়ের পরিচিত শব্দ ভ্লগ। অডিও এর পাশাপাশি ভিজুয়াল মাধ্যমে ব্লগিং</a>
+                                            <a href="./details.html" class="card_title">বর্তমান সময়ের পরিচিত শব্দ ভ্লগ। অডিও এর পাশাপাশি ভিজুয়াল মাধ্যমে ব্লগিং</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -2617,7 +3004,7 @@
                                     </div>
                                     <div class="card-body p-0">
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">বর্তমান সময়ের পরিচিত শব্দ ভ্লগ। অডিও এর পাশাপাশি ভিজুয়াল মাধ্যমে ব্লগিং</a>
+                                            <a href="./details.html" class="card_title">বর্তমান সময়ের পরিচিত শব্দ ভ্লগ। অডিও এর পাশাপাশি ভিজুয়াল মাধ্যমে ব্লগিং</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -2628,7 +3015,7 @@
                                     </div>
                                     <div class="card-body p-0">
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">বর্তমান সময়ের পরিচিত শব্দ ভ্লগ। অডিও এর পাশাপাশি ভিজুয়াল মাধ্যমে ব্লগিং</a>
+                                            <a href="./details.html" class="card_title">বর্তমান সময়ের পরিচিত শব্দ ভ্লগ। অডিও এর পাশাপাশি ভিজুয়াল মাধ্যমে ব্লগিং</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -2650,7 +3037,7 @@
                                 <div class="separate_line w-100 position-relative"></div>
                                 <div class="section_heading">
                                     <h2>বাণিজ্য</h2>
-                                    <a href="">বাণিজ্য <span><i class="fa-solid fa-chevron-right"></i></span></a>
+                                    <a href="./details.html">বাণিজ্য <span><i class="fa-solid fa-chevron-right"></i></span></a>
                                 </div>
                                 <div class="separate_line w-100 position-relative"></div>
                             </div>
@@ -2664,7 +3051,7 @@
                                     <div class="card-body p-0 pt-4">
                                         <p class="post_interval"><span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">ইউরোপ-আমেরিকা থেকে ফেরত এলো তিন কনটেইনার চিংড়ি</a>
+                                            <a href="./details.html" class="card_title">ইউরোপ-আমেরিকা থেকে ফেরত এলো তিন কনটেইনার চিংড়ি</a>
                                         </h5>
                                         <p class="post_intro">বৈদেশি মুদ্রা অর্জনকারী পণ্যের মধ্যে অন্যতম চিংড়ি। সম্প্রতি খুলনাঞ্চল থেকে রপ্তানি করা সাত কনটেইনার চিংড়িতে ক্ষতিকর জীবাণু পেয়েছে আমদানিকারক দেশ। এর মধ্যে তিন কনটেইনার চিংড়ি ফেরত পাঠিয়েছে ইউরোপ ও আমেরিকা। রপ্তানি করা এসব চিংড়িতে ক্ষতিকর ব্যাকটেরিয়া, ভাইরাস, লোহার স্ক্রু ও সিরিঞ্জের নিডল পাওয়া গেছে।</p>
                                     </div>
@@ -2676,7 +3063,7 @@
                                     </div>
                                     <div class="card-body p-0">
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">বর্তমান সময়ের পরিচিত শব্দ ভ্লগ। অডিও এর পাশাপাশি ভিজুয়াল মাধ্যমে ব্লগিং</a>
+                                            <a href="./details.html" class="card_title">বর্তমান সময়ের পরিচিত শব্দ ভ্লগ। অডিও এর পাশাপাশি ভিজুয়াল মাধ্যমে ব্লগিং</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -2687,7 +3074,7 @@
                                     </div>
                                     <div class="card-body p-0">
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">বর্তমান সময়ের পরিচিত শব্দ ভ্লগ। অডিও এর পাশাপাশি ভিজুয়াল মাধ্যমে ব্লগিং</a>
+                                            <a href="./details.html" class="card_title">বর্তমান সময়ের পরিচিত শব্দ ভ্লগ। অডিও এর পাশাপাশি ভিজুয়াল মাধ্যমে ব্লগিং</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -2698,7 +3085,7 @@
                                     </div>
                                     <div class="card-body p-0">
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">বর্তমান সময়ের পরিচিত শব্দ ভ্লগ। অডিও এর পাশাপাশি ভিজুয়াল মাধ্যমে ব্লগিং</a>
+                                            <a href="./details.html" class="card_title">বর্তমান সময়ের পরিচিত শব্দ ভ্লগ। অডিও এর পাশাপাশি ভিজুয়াল মাধ্যমে ব্লগিং</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -2711,7 +3098,7 @@
                                 <div class="separate_line w-100 position-relative"></div>
                                 <div class="section_heading">
                                     <h2>প্রবাস জীবন </h2>
-                                    <a href="">প্রবাস জীবন <span><i class="fa-solid fa-chevron-right"></i></span></a>
+                                    <a href="./details.html">প্রবাস জীবন <span><i class="fa-solid fa-chevron-right"></i></span></a>
                                 </div>
                                 <div class="separate_line w-100 position-relative"></div>
                             </div>
@@ -2726,7 +3113,7 @@
                                     <div class="card-body p-0 pt-4">
                                         <p class="post_interval"><span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">আবাসিক আইন লঙ্ঘনে কুয়েতে আটক বাংলাদেশিসহ ১২৪ প্রবাসী</a>
+                                            <a href="./details.html" class="card_title">আবাসিক আইন লঙ্ঘনে কুয়েতে আটক বাংলাদেশিসহ ১২৪ প্রবাসী</a>
                                         </h5>
                                         <p class="post_intro">আবাসিক আইন লঙ্ঘনের অভিযোগে কুয়েতে আটক হয়েছেন বাংলাদেশিসহ ১২৪ প্রবাসী। তবে এদের মধ্যে ঠিক কতজন বাংলাদেশি তা জানা যায়নি। গতকাল বৃহস্পতিবার (২২ জুন) বাংলাদেশি অধ্যুষিত জিলিব আল শুয়েখ, মাহবুল্লাহ, খাইতান ও ফরওয়ানিয়া এলাকায় অভিযান চালিয়ে তাদের আটক করে দেশটির স্বরাষ্ট্র মন্ত্রণালয়।</p>
                                     </div>
@@ -2738,7 +3125,7 @@
                                     </div>
                                     <div class="card-body p-0">
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">চীনের ছয় বিশ্ববিদ্যালয়ে বৃত্তি, সুযোগ বাংলাদেশি শিক্ষার্থীদেরও
+                                            <a href="./details.html" class="card_title">চীনের ছয় বিশ্ববিদ্যালয়ে বৃত্তি, সুযোগ বাংলাদেশি শিক্ষার্থীদেরও
                                                 চীনের ছয় বিশ্ববিদ্যালয়ে বৃত্তি, সুযোগ বাংলাদেশি শিক্ষার্থীদেরও</a>
                                         </h5>
                                     </div>
@@ -2750,7 +3137,7 @@
                                     </div>
                                     <div class="card-body p-0">
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">ব্রুনেইয়ে বৃত্তি, আইএলটিএসে ৬ হলেই আবেদন</a>
+                                            <a href="./details.html" class="card_title">ব্রুনেইয়ে বৃত্তি, আইএলটিএসে ৬ হলেই আবেদন</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -2761,7 +3148,7 @@
                                     </div>
                                     <div class="card-body p-0">
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">মাধ্যমিক বিদ্যালয়ে প্রধান শিক্ষিকা-শিক্ষক পদে ৭৭ জনের পদোন্নতি</a>
+                                            <a href="./details.html" class="card_title">মাধ্যমিক বিদ্যালয়ে প্রধান শিক্ষিকা-শিক্ষক পদে ৭৭ জনের পদোন্নতি</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -2774,7 +3161,7 @@
                                 <div class="separate_line w-100 position-relative"></div>
                                 <div class="section_heading">
                                     <h2>ক্যারিয়ার</h2>
-                                    <a href=""> ক্যারিয়ার <span><i class="fa-solid fa-chevron-right"></i></span></a>
+                                    <a href="./details.html"> ক্যারিয়ার <span><i class="fa-solid fa-chevron-right"></i></span></a>
                                 </div>
                                 <div class="separate_line w-100 position-relative"></div>
                             </div>
@@ -2789,7 +3176,7 @@
                                     <div class="card-body p-0 pt-4">
                                         <p class="post_interval"><span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">এস আলম গ্রুপে চাকরি, ৪০ বছর বয়সীরাও আবেদন করতে পারবেন</a>
+                                            <a href="./details.html" class="card_title">এস আলম গ্রুপে চাকরি, ৪০ বছর বয়সীরাও আবেদন করতে পারবেন</a>
                                         </h5>
                                         <p class="post_intro">শীর্ষস্থানীয় শিল্পপ্রতিষ্ঠান এস আলম গ্রুপে ‘প্রোডাকশন ম্যানেজার’ পদে জনবল নিয়োগ দেওয়া হবে। আগ্রহীরা আগামী ২৬ জুলাই পর্যন্ত আবেদন করতে পারবেন।
 
@@ -2807,7 +3194,7 @@
                                     </div>
                                     <div class="card-body p-0">
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">বর্তমান সময়ের পরিচিত শব্দ ভ্লগ। অডিও এর পাশাপাশি ভিজুয়াল মাধ্যমে ব্লগিং</a>
+                                            <a href="./details.html" class="card_title">বর্তমান সময়ের পরিচিত শব্দ ভ্লগ। অডিও এর পাশাপাশি ভিজুয়াল মাধ্যমে ব্লগিং</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -2818,7 +3205,7 @@
                                     </div>
                                     <div class="card-body p-0">
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">বর্তমান সময়ের পরিচিত শব্দ ভ্লগ। অডিও এর পাশাপাশি ভিজুয়াল মাধ্যমে ব্লগিং</a>
+                                            <a href="./details.html" class="card_title">বর্তমান সময়ের পরিচিত শব্দ ভ্লগ। অডিও এর পাশাপাশি ভিজুয়াল মাধ্যমে ব্লগিং</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -2829,7 +3216,7 @@
                                     </div>
                                     <div class="card-body p-0">
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">বর্তমান সময়ের পরিচিত শব্দ ভ্লগ। অডিও এর পাশাপাশি ভিজুয়াল মাধ্যমে ব্লগিং</a>
+                                            <a href="./details.html" class="card_title">বর্তমান সময়ের পরিচিত শব্দ ভ্লগ। অডিও এর পাশাপাশি ভিজুয়াল মাধ্যমে ব্লগিং</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -2840,7 +3227,7 @@
             </section>
             <!-- end multiple section -->
 
-            <!-- jibon section -->
+            <!-- life style section -->
             <section class="life_style section_padding">
                 <div class="container">
                     <!-- section title -->
@@ -2849,7 +3236,7 @@
                         <div class="separate_line w-100 position-relative"></div>
                         <div class="section_heading">
                             <h2>জীবনযাপন</h2>
-                            <a href="">জীবনযাপন <span><i class="fa-solid fa-chevron-right"></i></span></a>
+                            <a href="./details.html">জীবনযাপন <span><i class="fa-solid fa-chevron-right"></i></span></a>
                         </div>
                         <div class="separate_line w-100 position-relative"></div>
                     </div>
@@ -2858,7 +3245,7 @@
                         <!-- slider -->
                         <div class="lifestyle_slider">
                             <!-- item -->
-                            <a href="" class="life_slideritem position-relative">
+                            <a href="./details.html" class="life_slideritem position-relative">
                                 <!-- thumb -->
                                 <div class="life_slider_thumb">
                                     <figure>
@@ -2871,7 +3258,7 @@
                                 </div>
                             </a>
                             <!-- item -->
-                            <a href="" class="life_slideritem position-relative">
+                            <a href="./details.html" class="life_slideritem position-relative">
                                 <!-- thumb -->
                                 <div class="life_slider_thumb">
                                     <figure>
@@ -2884,7 +3271,7 @@
                                 </div>
                             </a>
                             <!-- item -->
-                            <a href="" class="life_slideritem position-relative">
+                            <a href="./details.html" class="life_slideritem position-relative">
                                 <!-- thumb -->
                                 <div class="life_slider_thumb">
                                     <figure>
@@ -2897,7 +3284,7 @@
                                 </div>
                             </a>
                             <!-- item -->
-                            <a href="" class="life_slideritem position-relative">
+                            <a href="./details.html" class="life_slideritem position-relative">
                                 <!-- thumb -->
                                 <div class="life_slider_thumb">
                                     <figure>
@@ -2910,7 +3297,7 @@
                                 </div>
                             </a>
                             <!-- item -->
-                            <a href="" class="life_slideritem position-relative">
+                            <a href="./details.html" class="life_slideritem position-relative">
                                 <!-- thumb -->
                                 <div class="life_slider_thumb">
                                     <figure>
@@ -2923,7 +3310,7 @@
                                 </div>
                             </a>
                             <!-- item -->
-                            <a href="" class="life_slideritem position-relative">
+                            <a href="./details.html" class="life_slideritem position-relative">
                                 <!-- thumb -->
                                 <div class="life_slider_thumb">
                                     <figure>
@@ -2936,7 +3323,7 @@
                                 </div>
                             </a>
                             <!-- item -->
-                            <a href="" class="life_slideritem position-relative">
+                            <a href="./details.html" class="life_slideritem position-relative">
                                 <!-- thumb -->
                                 <div class="life_slider_thumb">
                                     <figure>
@@ -2949,7 +3336,7 @@
                                 </div>
                             </a>
                             <!-- item -->
-                            <a href="" class="life_slideritem position-relative">
+                            <a href="./details.html" class="life_slideritem position-relative">
                                 <!-- thumb -->
                                 <div class="life_slider_thumb">
                                     <figure>
@@ -2962,7 +3349,7 @@
                                 </div>
                             </a>
                             <!-- item -->
-                            <a href="" class="life_slideritem position-relative">
+                            <a href="./details.html" class="life_slideritem position-relative">
                                 <!-- thumb -->
                                 <div class="life_slider_thumb">
                                     <figure>
@@ -2979,7 +3366,7 @@
                     </div>
                 </div>
             </section>
-            <!-- jibon section end -->
+            <!-- life style end -->
 
             <!-- gallery section -->
             <section class="gallery_section section_padding">
@@ -2990,7 +3377,7 @@
                         <div class="separate_line w-100 position-relative"></div>
                         <div class="section_heading">
                             <h2>ছবি</h2>
-                            <a href="">ছবি <span><i class="fa-solid fa-chevron-right"></i></span></a>
+                            <a href="./details.html">ছবি <span><i class="fa-solid fa-chevron-right"></i></span></a>
                         </div>
                         <div class="separate_line w-100 position-relative"></div>
                     </div>
@@ -3009,67 +3396,67 @@
                                         <li class="splide__slide position-relative">
                                             <img src="assets/image/gellary/1.jpg" alt="">
                                             <!-- title -->
-                                            <a href="" class="image__title"> <span class="me-2"><i class="fa-solid fa-image"></i></span> যমুনার চরাঞ্চলে উজানের ঢলের পানি থাকায় বাথানের মহিষের পাল চরানো হচ্ছে ডাঙায়</a>
+                                            <a href="./details.html" class="image__title"> <span class="me-2"><i class="fa-solid fa-image"></i></span> যমুনার চরাঞ্চলে উজানের ঢলের পানি থাকায় বাথানের মহিষের পাল চরানো হচ্ছে ডাঙায়</a>
                                         </li>
                                         <!-- thumb item -->
                                         <li class="splide__slide position-relative">
                                             <img src="assets/image/gellary/2.jpg" alt="">
                                             <!-- title -->
-                                            <a href="" class="image__title"> <span class="me-2"><i class="fa-solid fa-image"></i></span> মহিষের পালের সঙ্গে বাচ্চাও আছে</a>
+                                            <a href="./details.html" class="image__title"> <span class="me-2"><i class="fa-solid fa-image"></i></span> মহিষের পালের সঙ্গে বাচ্চাও আছে</a>
                                         </li>
                                         <!-- thumb item -->
                                         <li class="splide__slide position-relative">
                                             <img src="assets/image/gellary/3.jpg" alt="">
                                             <!-- title -->
-                                            <a href="" class="image__title"> <span class="me-2"><i class="fa-solid fa-image"></i></span> মাঠে ঘাস খাচ্ছে মহিষ</a>
+                                            <a href="./details.html" class="image__title"> <span class="me-2"><i class="fa-solid fa-image"></i></span> মাঠে ঘাস খাচ্ছে মহিষ</a>
                                         </li>
                                         <!-- thumb item -->
                                         <li class="splide__slide position-relative">
                                             <img src="assets/image/gellary/4.jpg" alt="">
                                             <!-- title -->
-                                            <a href="" class="image__title"> <span class="me-2"><i class="fa-solid fa-image"></i></span> দল বেঁধে ঘাস খাচ্ছে মহিষ</a>
+                                            <a href="./details.html" class="image__title"> <span class="me-2"><i class="fa-solid fa-image"></i></span> দল বেঁধে ঘাস খাচ্ছে মহিষ</a>
                                         </li>
                                         <!-- thumb item -->
                                         <li class="splide__slide position-relative">
                                             <img src="assets/image/gellary/5.jpg" alt="">
                                             <!-- title -->
-                                            <a href="" class="image__title"> <span class="me-2"><i class="fa-solid fa-image"></i></span> মহিষের পাল নেমে পড়েছে মাঠে জমে থাকা পানিতে</a>
+                                            <a href="./details.html" class="image__title"> <span class="me-2"><i class="fa-solid fa-image"></i></span> মহিষের পাল নেমে পড়েছে মাঠে জমে থাকা পানিতে</a>
                                         </li>
                                         <!-- thumb item -->
                                         <li class="splide__slide position-relative">
                                             <img src="assets/image/gellary/6.jpg" alt="">
                                             <!-- title -->
-                                            <a href="" class="image__title"> <span class="me-2"><i class="fa-solid fa-image"></i></span> পানিতে গা ভিজিয়ে আছে মহিষের পাল</a>
+                                            <a href="./details.html" class="image__title"> <span class="me-2"><i class="fa-solid fa-image"></i></span> পানিতে গা ভিজিয়ে আছে মহিষের পাল</a>
                                         </li>
                                         <!-- thumb item -->
                                         <li class="splide__slide position-relative">
                                             <img src="assets/image/gellary/7.jpg" alt="">
                                             <!-- title -->
-                                            <a href="" class="image__title"> <span class="me-2"><i class="fa-solid fa-image"></i></span> পানিতে গা ভিজিয়েছে মহিষের পাল।</a>
+                                            <a href="./details.html" class="image__title"> <span class="me-2"><i class="fa-solid fa-image"></i></span> পানিতে গা ভিজিয়েছে মহিষের পাল।</a>
                                         </li>
                                         <!-- thumb item -->
                                         <li class="splide__slide position-relative">
                                             <img src="assets/image/gellary/8.jpg" alt="">
                                             <!-- title -->
-                                            <a href="" class="image__title"> <span class="me-2"><i class="fa-solid fa-image"></i></span> মাঠে জমে থাকা পানিতে মহিষকে গোসল দেওয়া হচ্ছে</a>
+                                            <a href="./details.html" class="image__title"> <span class="me-2"><i class="fa-solid fa-image"></i></span> মাঠে জমে থাকা পানিতে মহিষকে গোসল দেওয়া হচ্ছে</a>
                                         </li>
                                         <!-- thumb item -->
                                         <li class="splide__slide position-relative">
                                             <img src="assets/image/gellary/9.jpg" alt="">
                                             <!-- title -->
-                                            <a href="" class="image__title"> <span class="me-2"><i class="fa-solid fa-image"></i></span> গরমে স্বস্তি পেতে পানিতে নেমেছে মহিষের পাল</a>
+                                            <a href="./details.html" class="image__title"> <span class="me-2"><i class="fa-solid fa-image"></i></span> গরমে স্বস্তি পেতে পানিতে নেমেছে মহিষের পাল</a>
                                         </li>
                                         <!-- thumb item -->
                                         <li class="splide__slide position-relative">
                                             <img src="assets/image/gellary/10.jpg" alt="">
                                             <!-- title -->
-                                            <a href="" class="image__title"> <span class="me-2"><i class="fa-solid fa-image"></i></span> গা ভিজিয়ে উঠে দাঁড়িয়েছে একটি মহিষ</a>
+                                            <a href="./details.html" class="image__title"> <span class="me-2"><i class="fa-solid fa-image"></i></span> গা ভিজিয়ে উঠে দাঁড়িয়েছে একটি মহিষ</a>
                                         </li>
                                         <!-- thumb item -->
                                         <li class="splide__slide position-relative">
                                             <img src="assets/image/gellary/11.jpg" alt="">
                                             <!-- title -->
-                                            <a href="" class="image__title"> <span class="me-2"><i class="fa-solid fa-image"></i></span> মাঠের কাদায় গড়াগড়ি করছে একটি মহিষ</a>
+                                            <a href="./details.html" class="image__title"> <span class="me-2"><i class="fa-solid fa-image"></i></span> মাঠের কাদায় গড়াগড়ি করছে একটি মহিষ</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -3088,7 +3475,7 @@
                         </div>
                         <div class="col-md-5 col-lg-4 col-xl-3">
                             <!-- add -->
-                            <a href="" class="add_image">
+                            <a href="./details.html" class="add_image">
                                 <img src="assets/image/add/10629714163341790146.jpeg" alt="">
                             </a>
 
@@ -3104,7 +3491,7 @@
                                         <!-- time -->
                                         <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">বর্ষার ফুল কদম। গাছে ফুটে থাকা কদম ফুল প্রকৃতিতে শোভা ছড়াচ্ছে</a>
+                                            <a href="./details.html" class="card_title">বর্ষার ফুল কদম। গাছে ফুটে থাকা কদম ফুল প্রকৃতিতে শোভা ছড়াচ্ছে</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -3118,7 +3505,7 @@
                                         <!-- time -->
                                         <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">পদ্মা নদী থেকে বালু উত্তোলন</a>
+                                            <a href="./details.html" class="card_title">পদ্মা নদী থেকে বালু উত্তোলন</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -3132,7 +3519,7 @@
                                         <!-- time -->
                                         <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                         <h5 class="card-title">
-                                            <a href="" class="card_title">আবদুল হাকিম প্লাস্টিকের তৈজসপত্র, খেলনা, মেয়েদের সাজার সামগ্রী সাইকেলে চাপিয়ে মহল্লায়</a>
+                                            <a href="./details.html" class="card_title">আবদুল হাকিম প্লাস্টিকের তৈজসপত্র, খেলনা, মেয়েদের সাজার সামগ্রী সাইকেলে চাপিয়ে মহল্লায়</a>
                                         </h5>
                                     </div>
                                 </div>
@@ -3152,7 +3539,7 @@
                         <div class="separate_line w-100 position-relative"></div>
                         <div class="section_heading">
                             <h2>ভিডিও</h2>
-                            <a href="">ভিডিও<span><i class="fa-solid fa-chevron-right"></i></span></a>
+                            <a href="./details.html">ভিডিও<span><i class="fa-solid fa-chevron-right"></i></span></a>
                         </div>
                         <div class="separate_line w-100 position-relative"></div>
                     </div>
@@ -3164,12 +3551,12 @@
                                 <div class="card-img position-relative overflow-hidden">
                                     <img src="assets/image/video/maxresdefault.webp" alt="">
                                     <!-- play btn -->
-                                    <a href="" class="video__playBtn"><i class="fa-solid fa-play"></i></a>
+                                    <a href="./videopage.html" class="video__playBtn"><i class="fa-solid fa-play"></i></a>
                                 </div>
                                 <div class="card-body">
                                     <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                     <h5 class="card-title">
-                                        <a href="" class="card_title">বার্বি না ওপেনহাইমার – কে মাতাল বক্স অফিস</a>
+                                        <a href="./videopage.html" class="card_title">বার্বি না ওপেনহাইমার – কে মাতাল বক্স অফিস</a>
                                     </h5>
                                     <p class="post_intro">রিপোর্ট বলছে, মুক্তির দিনে দুর্দান্ত ব্যবসা করেছে ওপেনহাইমার। শুধুমাত্র এই দেশ থেকে নাকি ১৩ কোটি ৩০ লাখ থেকে ১৪ কোটি ৫০ লাখের ব্যবসা করেছে এই সিনেমা। ২০২৩ সালের বিগেস্ট হলিউড ওপেনারের খেতাব ছিনিয়ে নিয়েছে এই সিনেমা। এর আগে মিশন ইম্পসিবল: ৭ এবং ফাস্ট এক্স ১২ কোটির ব্যবসা করেছিল।</p>
                                 </div>
@@ -3184,12 +3571,12 @@
                                         <div class="card-img position-relative overflow-hidden">
                                             <img src="assets/image/video/mbappe.jpg" alt="">
                                             <!-- play btn -->
-                                            <a href="" class="video__playBtn"><i class="fa-solid fa-play"></i></a>
+                                            <a href="./videopage.html" class="video__playBtn"><i class="fa-solid fa-play"></i></a>
                                         </div>
                                         <div class="card-body">
                                             <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                             <h5 class="card-title">
-                                                <a href="" class="card_title">বার্বি না ওপেনহাইমার – কে মাতাল বক্স অফিস</a>
+                                                <a href="./videopage.html" class="card_title">বার্বি না ওপেনহাইমার – কে মাতাল বক্স অফিস</a>
                                             </h5>
                                         </div>
                                     </div>
@@ -3201,12 +3588,12 @@
                                         <div class="card-img position-relative overflow-hidden">
                                             <img src="assets/image/video/nayika.jpg" alt="">
                                             <!-- play btn -->
-                                            <a href="" class="video__playBtn"><i class="fa-solid fa-play"></i></a>
+                                            <a href="./videopage.html" class="video__playBtn"><i class="fa-solid fa-play"></i></a>
                                         </div>
                                         <div class="card-body">
                                             <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                             <h5 class="card-title">
-                                                <a href="" class="card_title">বার্বি না ওপেনহাইমার – কে মাতাল বক্স অফিস</a>
+                                                <a href="./videopage.html" class="card_title">বার্বি না ওপেনহাইমার – কে মাতাল বক্স অফিস</a>
                                             </h5>
                                         </div>
                                     </div>
@@ -3218,12 +3605,12 @@
                                         <div class="card-img position-relative overflow-hidden">
                                             <img src="assets/image/video/robot.jpg" alt="">
                                             <!-- play btn -->
-                                            <a href="" class="video__playBtn"><i class="fa-solid fa-play"></i></a>
+                                            <a href="./videopage.html" class="video__playBtn"><i class="fa-solid fa-play"></i></a>
                                         </div>
                                         <div class="card-body">
                                             <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                             <h5 class="card-title">
-                                                <a href="" class="card_title">বার্বি না ওপেনহাইমার – কে মাতাল বক্স অফিস</a>
+                                                <a href="./videopage.html" class="card_title">বার্বি না ওপেনহাইমার – কে মাতাল বক্স অফিস</a>
                                             </h5>
                                         </div>
                                     </div>
@@ -3235,12 +3622,12 @@
                                         <div class="card-img position-relative overflow-hidden">
                                             <img src="assets/image/video/car.jpg" alt="">
                                             <!-- play btn -->
-                                            <a href="" class="video__playBtn"><i class="fa-solid fa-play"></i></a>
+                                            <a href="./videopage.html" class="video__playBtn"><i class="fa-solid fa-play"></i></a>
                                         </div>
                                         <div class="card-body">
                                             <p class="post_interval"> <span><i class="fa-solid fa-clock"></i></span> ৪০ মিনিট আগে</p>
                                             <h5 class="card-title">
-                                                <a href="" class="card_title">বার্বি না ওপেনহাইমার – কে মাতাল বক্স অফিস</a>
+                                                <a href="./videopage.html" class="card_title">বার্বি না ওপেনহাইমার – কে মাতাল বক্স অফিস</a>
                                             </h5>
                                         </div>
                                     </div>
@@ -3263,7 +3650,7 @@
                             <div class="footer_block">
                                 <!-- logo -->
                                 <div class="footer_logo">
-                                    <a href="">
+                                    <a href="./details.html">
                                         <img src="assets/image/logo.svg" alt="">
                                     </a>
                                 </div>
@@ -3284,13 +3671,13 @@
                                     <div class="footer_nav">
                                         <ul>
                                             <li>
-                                                <a href="">আওয়ার বাংলাদেশ</a>
+                                                <a href="./about.html">আওয়ার বাংলাদেশ</a>
                                             </li>
                                             <li>
-                                                <a href="">যোগাযোগ</a>
+                                                <a href="./contact.html">যোগাযোগ</a>
                                             </li>
                                             <li>
-                                                <a href="">ই-পেপার</a>
+                                                <a href="./details.html">ই-পেপার</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -3299,16 +3686,16 @@
                                     <div class="footer_nav">
                                         <ul>
                                             <li>
-                                                <a href="">বিজ্ঞাপন</a>
+                                                <a href="./add.html">বিজ্ঞাপন</a>
                                             </li>
                                             <li>
-                                                <a href="">সার্কুলেশন</a>
+                                                <a href="./circulation.html">সার্কুলেশন</a>
                                             </li>
                                             <li>
-                                                <a href="">নীতিমালা</a>
+                                                <a href="./termcondition.html">নীতিমালা</a>
                                             </li>
                                             <li>
-                                                <a href="">গোপনীয়তার নীতি</a>
+                                                <a href="./privecy.html">গোপনীয়তার নীতি</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -3317,13 +3704,13 @@
                                     <div class="footer_nav">
                                         <ul>
                                             <li>
-                                                <a href=""> <span>মোবাইল:</span> ০১৭৭৬৫৬৮৪৮৭,০১৭৪৩৪৬৩৩৩৩</a>
+                                                <a href="./details.html"> <span>মোবাইল:</span> ০১৭৭৬৫৬৮৪৮৭,০১৭৪৩৪৬৩৩৩৩</a>
                                             </li>
                                             <li>
-                                                <a href=""> <span>ফোন:</span> ০২৪৭১১১২৮৮</a>
+                                                <a href="./details.html"> <span>ফোন:</span> ০২৪৭১১১২৮৮</a>
                                             </li>
                                             <li>
-                                                <a href=""> <span>ইমেইল:</span> dailyourbangladesh2023@gmail.com</a>
+                                                <a href="./details.html"> <span>ইমেইল:</span> dailyourbangladesh2023@gmail.com</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -3341,22 +3728,22 @@
                             <div class="header_social">
                                 <ul class="d-flex align-items-center justify-content-lg-end flex-wrap">
                                     <li>
-                                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="./details.html"><i class="fa-brands fa-facebook-f"></i></a>
                                     </li>
                                     <li>
-                                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="./details.html"><i class="fa-brands fa-twitter"></i></a>
                                     </li>
                                     <li>
-                                        <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+                                        <a href="./details.html"><i class="fa-brands fa-pinterest-p"></i></a>
                                     </li>
                                     <li>
-                                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                                        <a href="./details.html"><i class="fa-brands fa-youtube"></i></a>
                                     </li>
                                     <li>
-                                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                                        <a href="./details.html"><i class="fa-brands fa-linkedin-in"></i></a>
                                     </li>
                                     <li>
-                                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                        <a href="./details.html"><i class="fa-brands fa-instagram"></i></a>
                                     </li>
                                 </ul>
                             </div>
